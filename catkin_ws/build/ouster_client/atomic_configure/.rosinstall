@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/setup.sh

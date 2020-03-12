@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/libouster_client.a  CMakeFiles/ouster_client.dir/src/os1.cpp.o CMakeFiles/ouster_client.dir/src/os1_util.cpp.o
+/usr/bin/ranlib /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/libouster_client.a

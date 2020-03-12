@@ -1,0 +1,5 @@
+ouster_description
+/home/alejandro/TFG/catkin_ws/devel/.private/ouster_description/cmake.lock /home/alejandro/TFG/catkin_ws/devel/./cmake.lock
+/home/alejandro/TFG/catkin_ws/devel/.private/ouster_description/share/ouster_description/cmake/ouster_descriptionConfig-version.cmake /home/alejandro/TFG/catkin_ws/devel/share/ouster_description/cmake/ouster_descriptionConfig-version.cmake
+/home/alejandro/TFG/catkin_ws/devel/.private/ouster_description/share/ouster_description/cmake/ouster_descriptionConfig.cmake /home/alejandro/TFG/catkin_ws/devel/share/ouster_description/cmake/ouster_descriptionConfig.cmake
+/home/alejandro/TFG/catkin_ws/devel/.private/ouster_description/lib/pkgconfig/ouster_description.pc /home/alejandro/TFG/catkin_ws/devel/lib/pkgconfig/ouster_description.pc

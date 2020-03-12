@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target ouster_client[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ouster_client.dir/src/os1.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ouster_client.dir/src/os1_util.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/libouster_client.a[0m
+[ 60%] Built target ouster_client
+[35m[1mScanning dependencies of target ouster_client_example[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ouster_client_example.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example[0m
+[100%] Built target ouster_client_example

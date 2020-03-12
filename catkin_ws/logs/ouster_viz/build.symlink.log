@@ -1,0 +1,5 @@
+Symlinking /home/alejandro/TFG/catkin_ws/devel/share/ouster_viz/cmake/ouster_vizConfig.cmake
+Symlinking /home/alejandro/TFG/catkin_ws/devel/share/ouster_viz/cmake/ouster_vizConfig-version.cmake
+Symlinking /home/alejandro/TFG/catkin_ws/devel/lib/libouster_viz.a
+Symlinking /home/alejandro/TFG/catkin_ws/devel/lib/ouster_viz/viz
+Symlinking /home/alejandro/TFG/catkin_ws/devel/lib/pkgconfig/ouster_viz.pc
