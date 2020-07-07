@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1.h
 cstdint
 -
 memory
@@ -16,7 +16,7 @@ string
 vector
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
 array
 -
 cmath
@@ -26,7 +26,7 @@ cstdint
 cstring
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1_util.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1_util.h
 algorithm
 -
 functional
@@ -36,9 +36,9 @@ iterator
 vector
 -
 ouster/os1_packet.h
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/ouster/os1_packet.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/lidar_scan.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/lidar_scan.h
 Eigen/Eigen
 -
 iterator
@@ -48,17 +48,17 @@ utility
 vector
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/viz.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/viz.h
 memory
 -
 vector
 -
 ouster/lidar_scan.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/ouster/lidar_scan.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/ouster/lidar_scan.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/colormaps.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/colormaps.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/main.cpp
+/home/alejandro/catkin_ws/src/ouster_viz/src/main.cpp
 unistd.h
 -
 atomic
@@ -84,15 +84,15 @@ thread
 vector
 -
 ouster/os1.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/os1.h
 ouster/os1_packet.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/os1_packet.h
 ouster/os1_util.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/os1_util.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/os1_util.h
 ouster/viz.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/viz.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/viz.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/viz.cpp
+/home/alejandro/catkin_ws/src/ouster_viz/src/viz.cpp
 Eigen/Eigen
 -
 atomic
@@ -170,13 +170,13 @@ vtkTransform.h
 vtkVertexGlyphFilter.h
 -
 colormaps.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/colormaps.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/colormaps.h
 ouster/lidar_scan.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/lidar_scan.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/lidar_scan.h
 ouster/os1_util.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/os1_util.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/os1_util.h
 ouster/viz.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/ouster/viz.h
+/home/alejandro/catkin_ws/src/ouster_viz/src/ouster/viz.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

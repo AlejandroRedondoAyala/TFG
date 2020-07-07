@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros
+prefix=/home/alejandro/catkin_ws/devel/.private/test_mavros
 
 Name: test_mavros
 Description: Description of test_mavros

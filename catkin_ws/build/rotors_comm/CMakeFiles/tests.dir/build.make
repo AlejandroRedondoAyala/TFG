@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_comm
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_comm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_comm
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_comm
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_comm /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_comm /home/alejandro/TFG/catkin_ws/build/rotors_comm /home/alejandro/TFG/catkin_ws/build/rotors_comm /home/alejandro/TFG/catkin_ws/build/rotors_comm/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rotors_comm /home/alejandro/catkin_ws/src/rotors_simulator/rotors_comm /home/alejandro/catkin_ws/build/rotors_comm /home/alejandro/catkin_ws/build/rotors_comm /home/alejandro/catkin_ws/build/rotors_comm/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -43,49 +43,49 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/ouster_ros
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/ouster_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/ouster_ros
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/ouster_ros
 
 # Utility rule file for ouster_ros_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/ouster_ros_generate_messages_py.dir/progress.make
 
-CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
-CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
-CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py
-CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py
+CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
+CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
+CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py
+CMakeFiles/ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py
 
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py: /home/alejandro/TFG/catkin_ws/src/ouster_ros/msg/PacketMsg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ouster_ros/PacketMsg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/alejandro/TFG/catkin_ws/src/ouster_ros/msg/PacketMsg.msg -Iouster_ros:/home/alejandro/TFG/catkin_ws/src/ouster_ros/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py: /home/alejandro/catkin_ws/src/ouster_ros/msg/PacketMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ouster_ros/PacketMsg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/alejandro/catkin_ws/src/ouster_ros/msg/PacketMsg.msg -Iouster_ros:/home/alejandro/catkin_ws/src/ouster_ros/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py: /home/alejandro/TFG/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV ouster_ros/OS1ConfigSrv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/alejandro/TFG/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv -Iouster_ros:/home/alejandro/TFG/catkin_ws/src/ouster_ros/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py: /home/alejandro/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV ouster_ros/OS1ConfigSrv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/alejandro/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv -Iouster_ros:/home/alejandro/catkin_ws/src/ouster_ros/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for ouster_ros"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg --initpy
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for ouster_ros"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg --initpy
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for ouster_ros"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv --initpy
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for ouster_ros"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv --initpy
 
 ouster_ros_generate_messages_py: CMakeFiles/ouster_ros_generate_messages_py
-ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
-ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
-ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py
-ouster_ros_generate_messages_py: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py
+ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
+ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/_OS1ConfigSrv.py
+ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py
+ouster_ros_generate_messages_py: /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/srv/__init__.py
 ouster_ros_generate_messages_py: CMakeFiles/ouster_ros_generate_messages_py.dir/build.make
 
 .PHONY : ouster_ros_generate_messages_py
@@ -100,6 +100,6 @@ CMakeFiles/ouster_ros_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/ouster_ros_generate_messages_py.dir/clean
 
 CMakeFiles/ouster_ros_generate_messages_py.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/ouster_ros /home/alejandro/TFG/catkin_ws/src/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles/ouster_ros_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/ouster_ros /home/alejandro/catkin_ws/src/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles/ouster_ros_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_ros_generate_messages_py.dir/depend
 

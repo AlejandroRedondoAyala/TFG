@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/ouster_client
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/ouster_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/ouster_client
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/ouster_client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ouster_client_example.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/ouster_client_example.dir/progress.make
 include CMakeFiles/ouster_client_example.dir/flags.make
 
 CMakeFiles/ouster_client_example.dir/src/main.cpp.o: CMakeFiles/ouster_client_example.dir/flags.make
-CMakeFiles/ouster_client_example.dir/src/main.cpp.o: /home/alejandro/TFG/catkin_ws/src/ouster_client/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ouster_client_example.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ouster_client_example.dir/src/main.cpp.o -c /home/alejandro/TFG/catkin_ws/src/ouster_client/src/main.cpp
+CMakeFiles/ouster_client_example.dir/src/main.cpp.o: /home/alejandro/catkin_ws/src/ouster_client/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/ouster_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ouster_client_example.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ouster_client_example.dir/src/main.cpp.o -c /home/alejandro/catkin_ws/src/ouster_client/src/main.cpp
 
 CMakeFiles/ouster_client_example.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ouster_client_example.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/ouster_client/src/main.cpp > CMakeFiles/ouster_client_example.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/ouster_client/src/main.cpp > CMakeFiles/ouster_client_example.dir/src/main.cpp.i
 
 CMakeFiles/ouster_client_example.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ouster_client_example.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/ouster_client/src/main.cpp -o CMakeFiles/ouster_client_example.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/ouster_client/src/main.cpp -o CMakeFiles/ouster_client_example.dir/src/main.cpp.s
 
 CMakeFiles/ouster_client_example.dir/src/main.cpp.o.requires:
 
@@ -88,15 +88,15 @@ ouster_client_example_OBJECTS = \
 # External object files for target ouster_client_example
 ouster_client_example_EXTERNAL_OBJECTS =
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/src/main.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/build.make
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/libouster_client.a
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example"
+/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/src/main.cpp.o
+/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/build.make
+/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: /home/alejandro/catkin_ws/devel/.private/ouster_client/lib/libouster_client.a
+/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example: CMakeFiles/ouster_client_example.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/catkin_ws/build/ouster_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ouster_client_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ouster_client_example.dir/build: /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example
+CMakeFiles/ouster_client_example.dir/build: /home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example
 
 .PHONY : CMakeFiles/ouster_client_example.dir/build
 
@@ -109,6 +109,6 @@ CMakeFiles/ouster_client_example.dir/clean:
 .PHONY : CMakeFiles/ouster_client_example.dir/clean
 
 CMakeFiles/ouster_client_example.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/ouster_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/ouster_client /home/alejandro/TFG/catkin_ws/src/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles/ouster_client_example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/ouster_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/ouster_client /home/alejandro/catkin_ws/src/ouster_client /home/alejandro/catkin_ws/build/ouster_client /home/alejandro/catkin_ws/build/ouster_client /home/alejandro/catkin_ws/build/ouster_client/CMakeFiles/ouster_client_example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_client_example.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.so"
+  "/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.so"
 )
 
 # Per-language clean rules from dependency scanning.

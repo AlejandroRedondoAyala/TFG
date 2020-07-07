@@ -1,8 +1,8 @@
-# Install script for directory: /home/alejandro/TFG/catkin_ws/src/ouster_ros
+# Install script for directory: /home/alejandro/catkin_ws/src/ouster_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alejandro/TFG/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/alejandro/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,143 +44,143 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/_setup_util.py")
+   "/home/alejandro/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/env.sh")
+   "/home/alejandro/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.bash;/home/alejandro/TFG/catkin_ws/install/local_setup.bash")
+   "/home/alejandro/catkin_ws/install/setup.bash;/home/alejandro/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.bash"
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.bash"
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.sh;/home/alejandro/TFG/catkin_ws/install/local_setup.sh")
+   "/home/alejandro/catkin_ws/install/setup.sh;/home/alejandro/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.sh"
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.sh"
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.zsh;/home/alejandro/TFG/catkin_ws/install/local_setup.zsh")
+   "/home/alejandro/catkin_ws/install/setup.zsh;/home/alejandro/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.zsh"
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/setup.zsh"
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/.rosinstall")
+   "/home/alejandro/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/msg" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/src/ouster_ros/msg/PacketMsg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/msg" TYPE FILE FILES "/home/alejandro/catkin_ws/src/ouster_ros/msg/PacketMsg.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/srv" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/srv" TYPE FILE FILES "/home/alejandro/catkin_ws/src/ouster_ros/srv/OS1ConfigSrv.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/alejandro/catkin_ws/devel/.private/ouster_ros/include/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/roseus/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/roseus/ros/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/gennodejs/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/gennodejs/ros/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_ros-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_rosConfig.cmake"
-    "/home/alejandro/TFG/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_rosConfig-version.cmake"
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_rosConfig.cmake"
+    "/home/alejandro/catkin_ws/build/ouster_ros/catkin_generated/installspace/ouster_rosConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/src/ouster_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE FILE FILES "/home/alejandro/catkin_ws/src/ouster_ros/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alejandro/TFG/catkin_ws/build/ouster_ros/gtest/cmake_install.cmake")
+  include("/home/alejandro/catkin_ws/build/ouster_ros/gtest/cmake_install.cmake")
 
 endif()
 
@@ -192,5 +192,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alejandro/TFG/catkin_ws/build/ouster_ros/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alejandro/catkin_ws/build/ouster_ros/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

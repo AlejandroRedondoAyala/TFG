@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_system_msgs_generate_messages_eus"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/manifest.l"
+  "/home/alejandro/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
+  "/home/alejandro/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
+  "/home/alejandro/catkin_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

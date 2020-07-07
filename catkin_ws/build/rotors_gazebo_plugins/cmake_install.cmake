@@ -1,8 +1,8 @@
-# Install script for directory: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins
+# Install script for directory: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alejandro/TFG/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/alejandro/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,98 +44,98 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/_setup_util.py")
+   "/home/alejandro/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/env.sh")
+   "/home/alejandro/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE PROGRAM FILES "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.bash;/home/alejandro/TFG/catkin_ws/install/local_setup.bash")
+   "/home/alejandro/catkin_ws/install/setup.bash;/home/alejandro/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.sh;/home/alejandro/TFG/catkin_ws/install/local_setup.sh")
+   "/home/alejandro/catkin_ws/install/setup.sh;/home/alejandro/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/setup.zsh;/home/alejandro/TFG/catkin_ws/install/local_setup.zsh")
+   "/home/alejandro/catkin_ws/install/setup.zsh;/home/alejandro/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/alejandro/TFG/catkin_ws/install/.rosinstall")
+   "/home/alejandro/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/alejandro/TFG/catkin_ws/install" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/alejandro/catkin_ws/install" TYPE FILE FILES "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins/cmake" TYPE FILE FILES
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
-    "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
+    "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -145,12 +145,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
@@ -165,12 +165,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
@@ -185,12 +185,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
@@ -205,12 +205,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
@@ -225,12 +225,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
@@ -245,12 +245,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
@@ -265,12 +265,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_noisydepth_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_noisydepth_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
@@ -285,12 +285,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
@@ -305,12 +305,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
@@ -325,12 +325,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_mavlink_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_mavlink_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so")
@@ -345,12 +345,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
@@ -365,12 +365,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
@@ -385,12 +385,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
@@ -405,12 +405,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
@@ -425,12 +425,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
@@ -445,12 +445,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
@@ -465,12 +465,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-7/plugins:/home/alejandro/catkin_ws/build/rotors_gazebo_plugins:/opt/ros/kinetic/lib:/home/alejandro/catkin_ws/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
@@ -480,7 +480,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
+  include("/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
 
 endif()
 
@@ -492,5 +492,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alejandro/TFG/catkin_ws/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alejandro/catkin_ws/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

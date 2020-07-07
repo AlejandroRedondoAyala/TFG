@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alejandro/TFG/catkin_ws/src/ouster_client/src/os1.cpp" "/home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles/ouster_client.dir/src/os1.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_client/src/os1_util.cpp" "/home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles/ouster_client.dir/src/os1_util.cpp.o"
+  "/home/alejandro/catkin_ws/src/ouster_client/src/os1.cpp" "/home/alejandro/catkin_ws/build/ouster_client/CMakeFiles/ouster_client.dir/src/os1.cpp.o"
+  "/home/alejandro/catkin_ws/src/ouster_client/src/os1_util.cpp" "/home/alejandro/catkin_ws/build/ouster_client/CMakeFiles/ouster_client.dir/src/os1_util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/alejandro/TFG/catkin_ws/src/ouster_client/include"
+  "/home/alejandro/catkin_ws/src/ouster_client/include"
   "/usr/include/jsoncpp"
   )
 

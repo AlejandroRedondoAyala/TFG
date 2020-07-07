@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o"
   "CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc
+/home/alejandro/catkin_ws/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc

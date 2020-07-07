@@ -1,6 +1,6 @@
-devel_space: /home/alejandro/TFG/catkin_ws/devel
+devel_space: /home/alejandro/catkin_ws/devel
 install: false
-install_space: /home/alejandro/TFG/catkin_ws/install
+install_space: /home/alejandro/catkin_ws/install
 profile: default
-source_space: /home/alejandro/TFG/catkin_ws/src
-workspace: /home/alejandro/TFG/catkin_ws
+source_space: /home/alejandro/catkin_ws/src
+workspace: /home/alejandro/catkin_ws

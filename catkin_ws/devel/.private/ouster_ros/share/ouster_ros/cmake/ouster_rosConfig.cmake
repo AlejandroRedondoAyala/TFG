@@ -67,14 +67,14 @@ set(ouster_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ouster_ros_SOURCE_PREFIX /home/alejandro/TFG/catkin_ws/src/ouster_ros)
-  set(ouster_ros_DEVEL_PREFIX /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros)
+  set(ouster_ros_SOURCE_PREFIX /home/alejandro/catkin_ws/src/ouster_ros)
+  set(ouster_ros_DEVEL_PREFIX /home/alejandro/catkin_ws/devel/.private/ouster_ros)
   set(ouster_ros_INSTALL_PREFIX "")
   set(ouster_ros_PREFIX ${ouster_ros_DEVEL_PREFIX})
 else()
   set(ouster_ros_SOURCE_PREFIX "")
   set(ouster_ros_DEVEL_PREFIX "")
-  set(ouster_ros_INSTALL_PREFIX /home/alejandro/TFG/catkin_ws/install)
+  set(ouster_ros_INSTALL_PREFIX /home/alejandro/catkin_ws/install)
   set(ouster_ros_PREFIX ${ouster_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ouster_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include;/home/alejandro/TFG/catkin_ws/src/ouster_ros/include " STREQUAL " ")
+if(NOT "/home/alejandro/catkin_ws/devel/.private/ouster_ros/include;/home/alejandro/catkin_ws/src/ouster_ros/include " STREQUAL " ")
   set(ouster_ros_INCLUDE_DIRS "")
-  set(_include_dirs "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include;/home/alejandro/TFG/catkin_ws/src/ouster_ros/include")
+  set(_include_dirs "/home/alejandro/catkin_ws/devel/.private/ouster_ros/include;/home/alejandro/catkin_ws/src/ouster_ros/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include;/home/al
         message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/TFG/catkin_ws/src/ouster_ros/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/catkin_ws/src/ouster_ros/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ouster_ros_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib;/home/alejandro/TFG/catkin_ws/devel/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_state_machine_msgs_generate_messages_cpp"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/StartStopTask.h"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/RunTaskService.h"
+  "/home/alejandro/catkin_ws/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/StartStopTask.h"
+  "/home/alejandro/catkin_ws/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/RunTaskService.h"
 )
 
 # Per-language clean rules from dependency scanning.

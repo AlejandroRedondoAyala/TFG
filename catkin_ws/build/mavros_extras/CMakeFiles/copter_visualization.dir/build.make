@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/mavros/mavros_extras
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/mavros_extras
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/mavros_extras
 
 # Include any dependencies generated for this target.
 include CMakeFiles/copter_visualization.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/copter_visualization.dir/progress.make
 include CMakeFiles/copter_visualization.dir/flags.make
 
 CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o: CMakeFiles/copter_visualization.dir/flags.make
-CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o: /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o -c /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp
+CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o: /home/alejandro/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o -c /home/alejandro/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp
 
 CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp > CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp > CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.i
 
 CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp -o CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp -o CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.s
 
 CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o.requires:
 
@@ -88,58 +88,58 @@ copter_visualization_OBJECTS = \
 # External object files for target copter_visualization
 copter_visualization_EXTERNAL_OBJECTS =
 
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/build.make
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libclass_loader.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/libPocoFoundation.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroslib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librospack.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /home/alejandro/TFG/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/liburdf.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libactionlib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroscpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librostime.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libcpp_common.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization"
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/src/copter_visualization.cpp.o
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/build.make
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libclass_loader.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/libPocoFoundation.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroslib.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librospack.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /home/alejandro/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/liburdf.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libactionlib.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroscpp.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libtf2.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/librostime.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /opt/ros/kinetic/lib/libcpp_common.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization: CMakeFiles/copter_visualization.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/copter_visualization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/copter_visualization.dir/build: /home/alejandro/TFG/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization
+CMakeFiles/copter_visualization.dir/build: /home/alejandro/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization
 
 .PHONY : CMakeFiles/copter_visualization.dir/build
 
@@ -152,6 +152,6 @@ CMakeFiles/copter_visualization.dir/clean:
 .PHONY : CMakeFiles/copter_visualization.dir/clean
 
 CMakeFiles/copter_visualization.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras /home/alejandro/TFG/catkin_ws/src/mavros/mavros_extras /home/alejandro/TFG/catkin_ws/build/mavros_extras /home/alejandro/TFG/catkin_ws/build/mavros_extras /home/alejandro/TFG/catkin_ws/build/mavros_extras/CMakeFiles/copter_visualization.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/mavros/mavros_extras /home/alejandro/catkin_ws/src/mavros/mavros_extras /home/alejandro/catkin_ws/build/mavros_extras /home/alejandro/catkin_ws/build/mavros_extras /home/alejandro/catkin_ws/build/mavros_extras/CMakeFiles/copter_visualization.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/copter_visualization.dir/depend
 

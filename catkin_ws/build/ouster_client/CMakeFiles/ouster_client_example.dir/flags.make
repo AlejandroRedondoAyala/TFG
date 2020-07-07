@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra   -std=gnu++11
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/alejandro/TFG/catkin_ws/src/ouster_client/include 
+CXX_INCLUDES = -I/home/alejandro/catkin_ws/src/ouster_client/include 
 

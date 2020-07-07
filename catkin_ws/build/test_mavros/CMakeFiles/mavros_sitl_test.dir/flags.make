@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"test_mavros\" -Dmavros_sitl_test_EXPORTS
 
-CXX_INCLUDES = -I/home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/include -I/usr/include/eigen3 -I/home/alejandro/TFG/catkin_ws/devel/include -I/home/alejandro/TFG/catkin_ws/devel/.private/mavros_msgs/include -I/home/alejandro/TFG/catkin_ws/src/mavros/libmavconn/include -I/home/alejandro/TFG/catkin_ws/src/mavros/mavros_msgs/include -I/home/alejandro/TFG/catkin_ws/src/mavros/mavros/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include 
+CXX_INCLUDES = -I/home/alejandro/catkin_ws/src/mavros/test_mavros/include -I/usr/include/eigen3 -I/home/alejandro/catkin_ws/devel/include -I/home/alejandro/catkin_ws/devel/.private/mavros_msgs/include -I/home/alejandro/catkin_ws/src/mavros/libmavconn/include -I/home/alejandro/catkin_ws/src/mavros/mavros_msgs/include -I/home/alejandro/catkin_ws/src/mavros/mavros/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include 
 

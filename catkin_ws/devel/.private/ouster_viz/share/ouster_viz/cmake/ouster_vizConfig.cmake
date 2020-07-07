@@ -67,14 +67,14 @@ set(ouster_viz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ouster_viz_SOURCE_PREFIX /home/alejandro/TFG/catkin_ws/src/ouster_viz)
-  set(ouster_viz_DEVEL_PREFIX /home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz)
+  set(ouster_viz_SOURCE_PREFIX /home/alejandro/catkin_ws/src/ouster_viz)
+  set(ouster_viz_DEVEL_PREFIX /home/alejandro/catkin_ws/devel/.private/ouster_viz)
   set(ouster_viz_INSTALL_PREFIX "")
   set(ouster_viz_PREFIX ${ouster_viz_DEVEL_PREFIX})
 else()
   set(ouster_viz_SOURCE_PREFIX "")
   set(ouster_viz_DEVEL_PREFIX "")
-  set(ouster_viz_INSTALL_PREFIX /home/alejandro/TFG/catkin_ws/install)
+  set(ouster_viz_INSTALL_PREFIX /home/alejandro/catkin_ws/install)
   set(ouster_viz_PREFIX ${ouster_viz_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ouster_viz_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/alejandro/TFG/catkin_ws/src/ouster_viz/include;/usr/include/vtk-6.2;/usr/include;/usr/include/x86_64-linux-gnu " STREQUAL " ")
+if(NOT "/home/alejandro/catkin_ws/src/ouster_viz/include;/usr/include/vtk-6.2;/usr/include;/usr/include/x86_64-linux-gnu " STREQUAL " ")
   set(ouster_viz_INCLUDE_DIRS "")
-  set(_include_dirs "/home/alejandro/TFG/catkin_ws/src/ouster_viz/include;/usr/include/vtk-6.2;/usr/include;/usr/include/x86_64-linux-gnu")
+  set(_include_dirs "/home/alejandro/catkin_ws/src/ouster_viz/include;/usr/include/vtk-6.2;/usr/include;/usr/include/x86_64-linux-gnu")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/alejandro/TFG/catkin_ws/src/ouster_viz/include;/usr/include/vtk-6.
         message(FATAL_ERROR "Project 'ouster_viz' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ouster_viz' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/TFG/catkin_ws/src/ouster_viz/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ouster_viz' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/catkin_ws/src/ouster_viz/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ouster_viz_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib;/home/alejandro/TFG/catkin_ws/devel/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/alejandro/catkin_ws/devel/.private/ouster_viz/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/ouster_client
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/ouster_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/ouster_client
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/ouster_client
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/ouster_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/ouster_client /home/alejandro/TFG/catkin_ws/src/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client /home/alejandro/TFG/catkin_ws/build/ouster_client/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/ouster_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/ouster_client /home/alejandro/catkin_ws/src/ouster_client /home/alejandro/catkin_ws/build/ouster_client /home/alejandro/catkin_ws/build/ouster_client /home/alejandro/catkin_ws/build/ouster_client/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
 )
 
 # Per-language clean rules from dependency scanning.

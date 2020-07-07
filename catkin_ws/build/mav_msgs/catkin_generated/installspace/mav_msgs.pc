@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/install
+prefix=/home/alejandro/catkin_ws/install
 
 Name: mav_msgs
 Description: Description of mav_msgs

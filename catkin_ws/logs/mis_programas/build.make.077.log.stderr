@@ -1,0 +1,6 @@
+[01m[K/home/alejandro/catkin_ws/src/mis_programas/src/control_velocidad.cpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+ double max_yawrate = 0.349; //en radianes 20º
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/control_velocidad.dir/src/control_velocidad.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control_velocidad.dir/all] Error 2
+make: *** [all] Error 2

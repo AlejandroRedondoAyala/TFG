@@ -24,8 +24,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so"
+  "/home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

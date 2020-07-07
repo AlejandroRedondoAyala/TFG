@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib/pkgconfig/ouster_viz.pc
+/home/alejandro/catkin_ws/devel/.private/ouster_viz/lib/pkgconfig/ouster_viz.pc

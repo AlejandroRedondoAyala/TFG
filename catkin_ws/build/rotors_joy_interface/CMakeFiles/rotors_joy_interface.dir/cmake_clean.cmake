@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface"
 )
 
 # Per-language clean rules from dependency scanning.

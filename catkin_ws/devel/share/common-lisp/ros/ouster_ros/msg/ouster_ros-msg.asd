@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros/msg/ouster_ros-msg.asd
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros/msg/ouster_ros-msg.asd

@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros/srv/_package_OS1ConfigSrv.lisp
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/common-lisp/ros/ouster_ros/srv/_package_OS1ConfigSrv.lisp

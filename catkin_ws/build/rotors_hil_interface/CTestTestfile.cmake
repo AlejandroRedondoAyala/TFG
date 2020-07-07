@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface
-# Build directory: /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface
+# Source directory: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface
+# Build directory: /home/alejandro/catkin_ws/build/rotors_hil_interface
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

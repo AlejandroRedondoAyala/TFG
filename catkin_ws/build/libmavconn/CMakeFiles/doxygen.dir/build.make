@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/libmavconn
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/libmavconn
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/mavros/libmavconn /home/alejandro/TFG/catkin_ws/src/mavros/libmavconn /home/alejandro/TFG/catkin_ws/build/libmavconn /home/alejandro/TFG/catkin_ws/build/libmavconn /home/alejandro/TFG/catkin_ws/build/libmavconn/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/mavros/libmavconn /home/alejandro/catkin_ws/src/mavros/libmavconn /home/alejandro/catkin_ws/build/libmavconn /home/alejandro/catkin_ws/build/libmavconn /home/alejandro/catkin_ws/build/libmavconn/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

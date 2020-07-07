@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1.h
 cstdint
 -
 memory
@@ -16,7 +16,7 @@ string
 vector
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
 array
 -
 cmath
@@ -26,7 +26,7 @@ cstdint
 cstring
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/src/os1.cpp
+/home/alejandro/catkin_ws/src/ouster_client/src/os1.cpp
 json/json.h
 -
 algorithm
@@ -66,17 +66,17 @@ sys/types.h
 unistd.h
 -
 ouster/os1.h
-/home/alejandro/TFG/catkin_ws/src/ouster_client/src/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_client/src/ouster/os1.h
 ouster/os1_packet.h
-/home/alejandro/TFG/catkin_ws/src/ouster_client/src/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/src/ouster/os1_packet.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/src/os1_util.cpp
+/home/alejandro/catkin_ws/src/ouster_client/src/os1_util.cpp
 cmath
 -
 vector
 -
 ouster/os1_packet.h
-/home/alejandro/TFG/catkin_ws/src/ouster_client/src/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/src/ouster/os1_packet.h
 
 /usr/include/jsoncpp/json/allocator.h
 cstring

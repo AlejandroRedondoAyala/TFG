@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
 gazebo/gazebo.hh
@@ -14,7 +14,7 @@ gazebo/gazebo.hh
 tinyxml.h
 -
 
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h
 string
 -
 gazebo/common/Plugin.hh
@@ -36,9 +36,9 @@ gazebo/physics/physics.hh
 gazebo/rendering/rendering.hh
 -
 
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp
 rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h
 math.h
 -
 string
@@ -54,7 +54,7 @@ highgui.h
 opencv2/opencv.hpp
 -
 rotors_gazebo_plugins/common.h
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/rotors_gazebo_plugins/common.h
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/rotors_gazebo_plugins/common.h
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv/cv.h
 opencv2/core/core_c.h

@@ -1,5 +1,5 @@
-prefix=/home/alejandro/TFG/catkin_ws/devel
-exec_prefix=/home/alejandro/TFG/catkin_ws/devel
+prefix=/home/alejandro/catkin_ws/devel
+exec_prefix=/home/alejandro/catkin_ws/devel
 includedir=${prefix}/include
 
 Name: mavlink

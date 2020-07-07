@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/viz.dir/src/main.cpp.o"
   "CMakeFiles/viz.dir/src/viz.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib/ouster_viz/viz.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib/ouster_viz/viz"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_viz/lib/ouster_viz/viz.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_viz/lib/ouster_viz/viz"
 )
 
 # Per-language clean rules from dependency scanning.

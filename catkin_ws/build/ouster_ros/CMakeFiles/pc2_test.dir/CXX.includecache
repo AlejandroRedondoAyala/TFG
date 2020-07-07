@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/pc2_test.cpp
+/home/alejandro/catkin_ws/src/ouster_ros/src/pc2_test.cpp
 ros/ros.h
 -
 sensor_msgs/PointCloud2.h
@@ -18,7 +18,7 @@ pcl/point_cloud.h
 pcl/point_types.h
 -
 pcl_ros/point_cloud.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/pcl_ros/point_cloud.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/pcl_ros/point_cloud.h
 
 /opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h
 vector

@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/install
+prefix=/home/alejandro/catkin_ws/install
 
 Name: rqt_rotors
 Description: Description of rqt_rotors

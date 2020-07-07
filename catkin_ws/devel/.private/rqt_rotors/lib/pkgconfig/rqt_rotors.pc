@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/devel/.private/rqt_rotors
+prefix=/home/alejandro/catkin_ws/devel/.private/rqt_rotors
 
 Name: rqt_rotors
 Description: Description of rqt_rotors

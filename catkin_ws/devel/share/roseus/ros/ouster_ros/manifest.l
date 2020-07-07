@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/roseus/ros/ouster_ros/manifest.l
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/roseus/ros/ouster_ros/manifest.l

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_gazebo_plugins_generate_messages_lisp"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp"
+  "/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_hil_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rotors_hil_interface.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rotors_hil_interface.dir/progress.make
 include CMakeFiles/rotors_hil_interface.dir/flags.make
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: CMakeFiles/rotors_hil_interface.dir/flags.make
-CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o -c /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o -c /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp > CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp > CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.i
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp -o CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_sensor_level_interface.cpp -o CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.s
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o.provide
 
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: CMakeFiles/rotors_hil_interface.dir/flags.make
-CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o -c /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o -c /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp > CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp > CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.i
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp -o CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_state_level_interface.cpp -o CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.s
 
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o.requires:
 
@@ -113,89 +113,89 @@ rotors_hil_interface_OBJECTS = \
 # External object files for target rotors_hil_interface
 rotors_hil_interface_EXTERNAL_OBJECTS =
 
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/build.make
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/libPocoFoundation.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroslib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librospack.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/TFG/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librostime.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/libPocoFoundation.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroslib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librospack.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/TFG/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librostime.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so"
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/build.make
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/libPocoFoundation.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroslib.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librospack.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librostime.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/libPocoFoundation.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroslib.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librospack.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libtf2.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /home/alejandro/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/librostime.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/catkin_ws/build/rotors_hil_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rotors_hil_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rotors_hil_interface.dir/build: /home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so
+CMakeFiles/rotors_hil_interface.dir/build: /home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so
 
 .PHONY : CMakeFiles/rotors_hil_interface.dir/build
 
@@ -209,6 +209,6 @@ CMakeFiles/rotors_hil_interface.dir/clean:
 .PHONY : CMakeFiles/rotors_hil_interface.dir/clean
 
 CMakeFiles/rotors_hil_interface.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_hil_interface /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface /home/alejandro/TFG/catkin_ws/build/rotors_hil_interface/CMakeFiles/rotors_hil_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rotors_hil_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface /home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface /home/alejandro/catkin_ws/build/rotors_hil_interface /home/alejandro/catkin_ws/build/rotors_hil_interface /home/alejandro/catkin_ws/build/rotors_hil_interface/CMakeFiles/rotors_hil_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rotors_hil_interface.dir/depend
 

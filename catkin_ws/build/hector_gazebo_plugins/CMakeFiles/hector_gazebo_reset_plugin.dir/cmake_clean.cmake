@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.so"
+  "/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

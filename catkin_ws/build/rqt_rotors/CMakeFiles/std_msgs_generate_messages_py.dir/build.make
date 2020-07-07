@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rqt_rotors
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rqt_rotors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rqt_rotors
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rqt_rotors
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rqt_rotors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rqt_rotors /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rqt_rotors /home/alejandro/TFG/catkin_ws/build/rqt_rotors /home/alejandro/TFG/catkin_ws/build/rqt_rotors /home/alejandro/TFG/catkin_ws/build/rqt_rotors/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rqt_rotors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rqt_rotors /home/alejandro/catkin_ws/src/rotors_simulator/rqt_rotors /home/alejandro/catkin_ws/build/rqt_rotors /home/alejandro/catkin_ws/build/rqt_rotors /home/alejandro/catkin_ws/build/rqt_rotors/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

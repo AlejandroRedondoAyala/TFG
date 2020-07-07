@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/ouster_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/ouster_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/ouster_gazebo_plugins
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/ouster_gazebo_plugins
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/ouster_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/ouster_gazebo_plugins /home/alejandro/TFG/catkin_ws/src/ouster_gazebo_plugins /home/alejandro/TFG/catkin_ws/build/ouster_gazebo_plugins /home/alejandro/TFG/catkin_ws/build/ouster_gazebo_plugins /home/alejandro/TFG/catkin_ws/build/ouster_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/ouster_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/ouster_gazebo_plugins /home/alejandro/catkin_ws/src/ouster_gazebo_plugins /home/alejandro/catkin_ws/build/ouster_gazebo_plugins /home/alejandro/catkin_ws/build/ouster_gazebo_plugins /home/alejandro/catkin_ws/build/ouster_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

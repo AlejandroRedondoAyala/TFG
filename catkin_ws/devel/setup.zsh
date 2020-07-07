@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/alejandro/catkin_ws/devel/.private/catkin_tools_prebuild/setup.zsh

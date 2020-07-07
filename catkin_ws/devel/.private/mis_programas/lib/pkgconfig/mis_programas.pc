@@ -1,0 +1,8 @@
+prefix=/home/alejandro/catkin_ws/devel/.private/mis_programas
+
+Name: mis_programas
+Description: Description of mis_programas
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

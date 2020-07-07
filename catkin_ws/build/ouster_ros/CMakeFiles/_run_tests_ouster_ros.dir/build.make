@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/ouster_ros
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/ouster_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/ouster_ros
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/ouster_ros
 
 # Utility rule file for _run_tests_ouster_ros.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_ouster_ros.dir/clean:
 .PHONY : CMakeFiles/_run_tests_ouster_ros.dir/clean
 
 CMakeFiles/_run_tests_ouster_ros.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/ouster_ros /home/alejandro/TFG/catkin_ws/src/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros /home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles/_run_tests_ouster_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/ouster_ros /home/alejandro/catkin_ws/src/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros /home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles/_run_tests_ouster_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_ouster_ros.dir/depend
 

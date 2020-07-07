@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/install
+prefix=/home/alejandro/catkin_ws/install
 
 Name: rotors_gazebo_plugins
 Description: Description of rotors_gazebo_plugins

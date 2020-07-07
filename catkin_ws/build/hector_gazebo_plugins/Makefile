@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/hector_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/hector_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/hector_gazebo_plugins
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/hector_gazebo_plugins
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/hector_gazebo_plugins/CMakeFiles /home/alejandro/TFG/catkin_ws/build/hector_gazebo_plugins/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/hector_gazebo_plugins/CMakeFiles /home/alejandro/catkin_ws/build/hector_gazebo_plugins/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/hector_gazebo_plugins/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/hector_gazebo_plugins/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

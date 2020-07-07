@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ouster_description"
-PROJECT_SPACE_DIR = "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_description"
+PROJECT_SPACE_DIR = "/home/alejandro/catkin_ws/devel/.private/ouster_description"
 PROJECT_VERSION = "1.0.7"

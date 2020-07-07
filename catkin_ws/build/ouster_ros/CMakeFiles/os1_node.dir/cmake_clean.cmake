@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/os1_node.dir/src/os1_node.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/ouster_ros/os1_node.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/ouster_ros/os1_node"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/ouster_ros/os1_node.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/ouster_ros/os1_node"
 )
 
 # Per-language clean rules from dependency scanning.

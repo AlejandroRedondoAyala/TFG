@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/src/ouster_gazebo_plugins/include/ouster_gazebo_plugins/GazeboRosOusterLaser.h
+/home/alejandro/catkin_ws/src/ouster_gazebo_plugins/include/ouster_gazebo_plugins/GazeboRosOusterLaser.h
 ros/ros.h
 -
 ros/callback_queue.h
@@ -42,7 +42,7 @@ boost/thread/mutex.hpp
 boost/thread/lock_guard.hpp
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_gazebo_plugins/src/GazeboRosOusterLaser.cpp
+/home/alejandro/catkin_ws/src/ouster_gazebo_plugins/src/GazeboRosOusterLaser.cpp
 ouster_gazebo_plugins/GazeboRosOusterLaser.h
 -
 algorithm

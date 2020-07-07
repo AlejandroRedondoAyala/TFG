@@ -43,30 +43,30 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_gazebo
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_gazebo
 
 # Utility rule file for sdf.
 
 # Include the progress variables for this target.
 include CMakeFiles/sdf.dir/progress.make
 
-CMakeFiles/sdf: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+CMakeFiles/sdf: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
 
 
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris.xacro
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro
-/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/component_snippets.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
-	cd /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
-	cd /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo && python /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/scripts/xacro.py -o /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro enable_mavlink_interface:=true enable_ground_truth:=false enable_wind:=false enable_logging:=false rotors_description_dir:=/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description
-	cd /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo && gz sdf -p /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf >> /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
-	cd /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris.xacro
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro
+/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/component_snippets.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alejandro/catkin_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
+	cd /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+	cd /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo && python /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/scripts/xacro.py -o /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro enable_mavlink_interface:=true enable_ground_truth:=false enable_wind:=false enable_logging:=false rotors_description_dir:=/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description
+	cd /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo && gz sdf -p /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf >> /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+	cd /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf
 
 sdf: CMakeFiles/sdf
-sdf: /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+sdf: /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
 sdf: CMakeFiles/sdf.dir/build.make
 
 .PHONY : sdf
@@ -81,6 +81,6 @@ CMakeFiles/sdf.dir/clean:
 .PHONY : CMakeFiles/sdf.dir/clean
 
 CMakeFiles/sdf.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo/CMakeFiles/sdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo/CMakeFiles/sdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sdf.dir/depend
 

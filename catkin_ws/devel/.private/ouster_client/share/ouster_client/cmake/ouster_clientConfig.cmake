@@ -67,14 +67,14 @@ set(ouster_client_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ouster_client_SOURCE_PREFIX /home/alejandro/TFG/catkin_ws/src/ouster_client)
-  set(ouster_client_DEVEL_PREFIX /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client)
+  set(ouster_client_SOURCE_PREFIX /home/alejandro/catkin_ws/src/ouster_client)
+  set(ouster_client_DEVEL_PREFIX /home/alejandro/catkin_ws/devel/.private/ouster_client)
   set(ouster_client_INSTALL_PREFIX "")
   set(ouster_client_PREFIX ${ouster_client_DEVEL_PREFIX})
 else()
   set(ouster_client_SOURCE_PREFIX "")
   set(ouster_client_DEVEL_PREFIX "")
-  set(ouster_client_INSTALL_PREFIX /home/alejandro/TFG/catkin_ws/install)
+  set(ouster_client_INSTALL_PREFIX /home/alejandro/catkin_ws/install)
   set(ouster_client_PREFIX ${ouster_client_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ouster_client_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/alejandro/TFG/catkin_ws/src/ouster_client/include;/usr/include/jsoncpp " STREQUAL " ")
+if(NOT "/home/alejandro/catkin_ws/src/ouster_client/include;/usr/include/jsoncpp " STREQUAL " ")
   set(ouster_client_INCLUDE_DIRS "")
-  set(_include_dirs "/home/alejandro/TFG/catkin_ws/src/ouster_client/include;/usr/include/jsoncpp")
+  set(_include_dirs "/home/alejandro/catkin_ws/src/ouster_client/include;/usr/include/jsoncpp")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/alejandro/TFG/catkin_ws/src/ouster_client/include;/usr/include/jso
         message(FATAL_ERROR "Project 'ouster_client' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ouster_client' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/TFG/catkin_ws/src/ouster_client/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ouster_client' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alejandro/catkin_ws/src/ouster_client/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ouster_client_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib;/home/alejandro/TFG/catkin_ws/devel/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/alejandro/catkin_ws/devel/.private/ouster_client/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

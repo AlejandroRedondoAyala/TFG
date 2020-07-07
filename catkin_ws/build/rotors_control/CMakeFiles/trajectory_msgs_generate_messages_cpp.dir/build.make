@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_control
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_control
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_control
 
 # Utility rule file for trajectory_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_control /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_control /home/alejandro/TFG/catkin_ws/build/rotors_control /home/alejandro/TFG/catkin_ws/build/rotors_control /home/alejandro/TFG/catkin_ws/build/rotors_control/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rotors_control /home/alejandro/catkin_ws/src/rotors_simulator/rotors_control /home/alejandro/catkin_ws/build/rotors_control /home/alejandro/catkin_ws/build/rotors_control /home/alejandro/catkin_ws/build/rotors_control/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend
 

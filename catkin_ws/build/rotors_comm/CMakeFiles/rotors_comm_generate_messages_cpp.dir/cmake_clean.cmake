@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_comm_generate_messages_cpp"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/WindSpeed.h"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/RecordRosbag.h"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/Octomap.h"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/WindSpeed.h"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/Octomap.h"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_comm/include/rotors_comm/RecordRosbag.h"
 )
 
 # Per-language clean rules from dependency scanning.

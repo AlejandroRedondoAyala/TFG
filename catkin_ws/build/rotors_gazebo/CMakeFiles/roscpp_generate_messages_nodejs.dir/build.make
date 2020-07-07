@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_gazebo
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_gazebo
 
 # Utility rule file for roscpp_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 CMakeFiles/roscpp_generate_messages_nodejs.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo /home/alejandro/TFG/catkin_ws/build/rotors_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo /home/alejandro/catkin_ws/build/rotors_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 

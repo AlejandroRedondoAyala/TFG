@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

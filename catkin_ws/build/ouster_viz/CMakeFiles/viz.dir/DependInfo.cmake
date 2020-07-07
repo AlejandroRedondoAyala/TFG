@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/main.cpp" "/home/alejandro/TFG/catkin_ws/build/ouster_viz/CMakeFiles/viz.dir/src/main.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_viz/src/viz.cpp" "/home/alejandro/TFG/catkin_ws/build/ouster_viz/CMakeFiles/viz.dir/src/viz.cpp.o"
+  "/home/alejandro/catkin_ws/src/ouster_viz/src/main.cpp" "/home/alejandro/catkin_ws/build/ouster_viz/CMakeFiles/viz.dir/src/main.cpp.o"
+  "/home/alejandro/catkin_ws/src/ouster_viz/src/viz.cpp" "/home/alejandro/catkin_ws/build/ouster_viz/CMakeFiles/viz.dir/src/viz.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/vtk-6.2"
   "/usr/include/x86_64-linux-gnu"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_client/include"
+  "/home/alejandro/catkin_ws/src/ouster_client/include"
   "/usr/include/jsoncpp"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_viz/include"
+  "/home/alejandro/catkin_ws/src/ouster_viz/include"
   "/usr/include/eigen3"
   )
 

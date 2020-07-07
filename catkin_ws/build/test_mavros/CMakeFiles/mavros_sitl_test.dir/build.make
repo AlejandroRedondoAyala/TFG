@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/mavros/test_mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/test_mavros
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/test_mavros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mavros_sitl_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/mavros_sitl_test.dir/progress.make
 include CMakeFiles/mavros_sitl_test.dir/flags.make
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o: CMakeFiles/mavros_sitl_test.dir/flags.make
-CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o: /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o -c /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp
+CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o: /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o -c /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp > CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp > CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.i
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/sitl_test.cpp -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.s
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o.provides.build: CM
 
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o: CMakeFiles/mavros_sitl_test.dir/flags.make
-CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o: /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/TFG/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o -c /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp
+CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o: /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o -c /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp > CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp > CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.i
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/catkin_ws/src/mavros/test_mavros/sitl_test/lib/pid_controller.cpp -o CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.s
 
 CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o.requires:
 
@@ -113,95 +113,95 @@ mavros_sitl_test_OBJECTS = \
 # External object files for target mavros_sitl_test
 mavros_sitl_test_EXTERNAL_OBJECTS =
 
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/build.make
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/libPocoFoundation.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroslib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librospack.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/TFG/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librealtime_tools.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librostime.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/libPocoFoundation.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroslib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librospack.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/TFG/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librealtime_tools.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librostime.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/TFG/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so"
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/sitl_test.cpp.o
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/sitl_test/lib/pid_controller.cpp.o
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/build.make
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/libPocoFoundation.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroslib.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librospack.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librealtime_tools.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librostime.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/libPocoFoundation.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroslib.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librospack.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /home/alejandro/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libtf2.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcontrol_toolbox.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librealtime_tools.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/librostime.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so: CMakeFiles/mavros_sitl_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/catkin_ws/build/test_mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mavros_sitl_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/mavros_sitl_test.dir/build: /home/alejandro/TFG/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so
+CMakeFiles/mavros_sitl_test.dir/build: /home/alejandro/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so
 
 .PHONY : CMakeFiles/mavros_sitl_test.dir/build
 
@@ -215,6 +215,6 @@ CMakeFiles/mavros_sitl_test.dir/clean:
 .PHONY : CMakeFiles/mavros_sitl_test.dir/clean
 
 CMakeFiles/mavros_sitl_test.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros /home/alejandro/TFG/catkin_ws/src/mavros/test_mavros /home/alejandro/TFG/catkin_ws/build/test_mavros /home/alejandro/TFG/catkin_ws/build/test_mavros /home/alejandro/TFG/catkin_ws/build/test_mavros/CMakeFiles/mavros_sitl_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/mavros/test_mavros /home/alejandro/catkin_ws/src/mavros/test_mavros /home/alejandro/catkin_ws/build/test_mavros /home/alejandro/catkin_ws/build/test_mavros /home/alejandro/catkin_ws/build/test_mavros/CMakeFiles/mavros_sitl_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mavros_sitl_test.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/mavlink
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/mavlink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/mavlink
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/mavlink
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,9 +113,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/mavlink/CMakeFiles /home/alejandro/TFG/catkin_ws/build/mavlink/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/mavlink/CMakeFiles /home/alejandro/catkin_ws/build/mavlink/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/mavlink/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/mavlink/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

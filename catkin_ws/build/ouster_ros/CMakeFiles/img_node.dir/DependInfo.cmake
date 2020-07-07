@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/img_node.cpp" "/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles/img_node.dir/src/img_node.cpp.o"
+  "/home/alejandro/catkin_ws/src/ouster_ros/src/img_node.cpp" "/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles/img_node.dir/src/img_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,10 +17,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_ros/include"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_client/include"
-  "/home/alejandro/TFG/catkin_ws/src/ouster_viz/include"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_ros/include"
+  "/home/alejandro/catkin_ws/src/ouster_ros/include"
+  "/home/alejandro/catkin_ws/src/ouster_client/include"
+  "/home/alejandro/catkin_ws/src/ouster_viz/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/share/orocos_kdl/../../include"
@@ -42,7 +42,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/alejandro/TFG/catkin_ws/build/ouster_ros/CMakeFiles/ouster_ros.dir/DependInfo.cmake"
+  "/home/alejandro/catkin_ws/build/ouster_ros/CMakeFiles/ouster_ros.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo
+prefix=/home/alejandro/catkin_ws/devel/.private/rotors_gazebo
 
 Name: rotors_gazebo
 Description: Description of rotors_gazebo

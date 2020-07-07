@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ouster_client_example.dir/src/main.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/ouster_client/lib/ouster_client/ouster_client_example"
 )
 
 # Per-language clean rules from dependency scanning.

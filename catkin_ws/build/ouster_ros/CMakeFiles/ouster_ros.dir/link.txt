@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/libouster_ros.a  CMakeFiles/ouster_ros.dir/src/os1_ros.cpp.o
-/usr/bin/ranlib /home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/lib/libouster_ros.a
+/usr/bin/ar qc /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/libouster_ros.a  CMakeFiles/ouster_ros.dir/src/os1_ros.cpp.o
+/usr/bin/ranlib /home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/libouster_ros.a

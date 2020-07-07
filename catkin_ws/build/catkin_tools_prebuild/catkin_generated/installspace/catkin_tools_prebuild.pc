@@ -1,4 +1,4 @@
-prefix=/home/alejandro/TFG/catkin_ws/install
+prefix=/home/alejandro/catkin_ws/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

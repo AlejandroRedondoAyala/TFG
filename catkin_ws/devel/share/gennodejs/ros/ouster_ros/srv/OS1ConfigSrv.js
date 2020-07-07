@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/gennodejs/ros/ouster_ros/srv/OS1ConfigSrv.js
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/gennodejs/ros/ouster_ros/srv/OS1ConfigSrv.js

@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo:$CMAKE_PREFIX_PATH"
-export PWD="/home/alejandro/TFG/catkin_ws/build/rotors_gazebo"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_gazebo/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_gazebo:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/alejandro/catkin_ws/devel/.private/rotors_gazebo:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/alejandro/catkin_ws/devel/.private/rotors_gazebo/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/alejandro/catkin_ws/devel/.private/rotors_gazebo/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/alejandro/catkin_ws/build/rotors_gazebo"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/catkin_ws/devel/.private/rotors_gazebo/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo:$ROS_PACKAGE_PATH"

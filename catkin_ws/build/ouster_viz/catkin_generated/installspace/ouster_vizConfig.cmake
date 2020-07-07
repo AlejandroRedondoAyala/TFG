@@ -67,14 +67,14 @@ set(ouster_viz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ouster_viz_SOURCE_PREFIX /home/alejandro/TFG/catkin_ws/src/ouster_viz)
-  set(ouster_viz_DEVEL_PREFIX /home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz)
+  set(ouster_viz_SOURCE_PREFIX /home/alejandro/catkin_ws/src/ouster_viz)
+  set(ouster_viz_DEVEL_PREFIX /home/alejandro/catkin_ws/devel/.private/ouster_viz)
   set(ouster_viz_INSTALL_PREFIX "")
   set(ouster_viz_PREFIX ${ouster_viz_DEVEL_PREFIX})
 else()
   set(ouster_viz_SOURCE_PREFIX "")
   set(ouster_viz_DEVEL_PREFIX "")
-  set(ouster_viz_INSTALL_PREFIX /home/alejandro/TFG/catkin_ws/install)
+  set(ouster_viz_INSTALL_PREFIX /home/alejandro/catkin_ws/install)
   set(ouster_viz_PREFIX ${ouster_viz_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alejandro/TFG/catkin_ws/install/lib;/home/alejandro/TFG/catkin_ws/devel/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/alejandro/catkin_ws/install/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

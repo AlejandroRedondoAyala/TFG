@@ -7,9 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_evaluation:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_evaluation/lib:$LD_LIBRARY_PATH"
-export PWD="/home/alejandro/TFG/catkin_ws/build/rotors_evaluation"
-export PYTHONPATH="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_evaluation/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/TFG/catkin_ws/devel/.private/rotors_evaluation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_evaluation:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/alejandro/catkin_ws/devel/.private/rotors_evaluation:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/alejandro/catkin_ws/devel/.private/rotors_evaluation/lib:$LD_LIBRARY_PATH"
+export PWD="/home/alejandro/catkin_ws/build/rotors_evaluation"
+export PYTHONPATH="/home/alejandro/catkin_ws/devel/.private/rotors_evaluation/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/catkin_ws/devel/.private/rotors_evaluation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/alejandro/catkin_ws/src/rotors_simulator/rotors_evaluation:$ROS_PACKAGE_PATH"

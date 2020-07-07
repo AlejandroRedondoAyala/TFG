@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/mav_comm/mav_state_machine_msgs
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/mav_comm/mav_state_machine_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/mav_state_machine_msgs
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/mav_state_machine_msgs
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/alejandro/TFG/catkin_ws/build/mav_state_machine_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/TFG/catkin_ws/src/mav_comm/mav_state_machine_msgs /home/alejandro/TFG/catkin_ws/src/mav_comm/mav_state_machine_msgs /home/alejandro/TFG/catkin_ws/build/mav_state_machine_msgs /home/alejandro/TFG/catkin_ws/build/mav_state_machine_msgs /home/alejandro/TFG/catkin_ws/build/mav_state_machine_msgs/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alejandro/catkin_ws/build/mav_state_machine_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alejandro/catkin_ws/src/mav_comm/mav_state_machine_msgs /home/alejandro/catkin_ws/src/mav_comm/mav_state_machine_msgs /home/alejandro/catkin_ws/build/mav_state_machine_msgs /home/alejandro/catkin_ws/build/mav_state_machine_msgs /home/alejandro/catkin_ws/build/mav_state_machine_msgs/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

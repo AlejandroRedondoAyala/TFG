@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrv.h
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrv.h
 ros/service_traits.h
 -
 ouster_ros/OS1ConfigSrvRequest.h
@@ -14,7 +14,7 @@ ouster_ros/OS1ConfigSrvRequest.h
 ouster_ros/OS1ConfigSrvResponse.h
 -
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrvRequest.h
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrvRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrvResponse.h
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/OS1ConfigSrvResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/PacketMsg.h
+/home/alejandro/catkin_ws/devel/.private/ouster_ros/include/ouster_ros/PacketMsg.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1.h
 cstdint
 -
 memory
@@ -72,7 +72,7 @@ string
 vector
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_client/include/ouster/os1_packet.h
 array
 -
 cmath
@@ -82,7 +82,7 @@ cstdint
 cstring
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/include/ouster_ros/os1_ros.h
+/home/alejandro/catkin_ws/src/ouster_ros/include/ouster_ros/os1_ros.h
 geometry_msgs/TransformStamped.h
 -
 pcl/point_cloud.h
@@ -96,17 +96,17 @@ chrono
 string
 -
 ouster/os1.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/include/ouster_ros/ouster/os1.h
+/home/alejandro/catkin_ws/src/ouster_ros/include/ouster_ros/ouster/os1.h
 ouster_ros/PacketMsg.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/include/ouster_ros/ouster_ros/PacketMsg.h
+/home/alejandro/catkin_ws/src/ouster_ros/include/ouster_ros/ouster_ros/PacketMsg.h
 ouster_ros/point_os1.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/include/ouster_ros/ouster_ros/point_os1.h
+/home/alejandro/catkin_ws/src/ouster_ros/include/ouster_ros/ouster_ros/point_os1.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/include/ouster_ros/point_os1.h
+/home/alejandro/catkin_ws/src/ouster_ros/include/ouster_ros/point_os1.h
 pcl/point_types.h
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/viz_node.cpp
+/home/alejandro/catkin_ws/src/ouster_ros/src/viz_node.cpp
 pcl_ros/point_cloud.h
 -
 ros/console.h
@@ -124,17 +124,17 @@ thread
 utility
 -
 ouster/os1_packet.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/ouster/os1_packet.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/ouster/os1_packet.h
 ouster/viz.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/ouster/viz.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/ouster/viz.h
 ouster_ros/OS1ConfigSrv.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/ouster_ros/OS1ConfigSrv.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/ouster_ros/OS1ConfigSrv.h
 ouster_ros/os1_ros.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/ouster_ros/os1_ros.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/ouster_ros/os1_ros.h
 ouster_ros/point_os1.h
-/home/alejandro/TFG/catkin_ws/src/ouster_ros/src/ouster_ros/point_os1.h
+/home/alejandro/catkin_ws/src/ouster_ros/src/ouster_ros/point_os1.h
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/lidar_scan.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/lidar_scan.h
 Eigen/Eigen
 -
 iterator
@@ -144,13 +144,13 @@ utility
 vector
 -
 
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/viz.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/viz.h
 memory
 -
 vector
 -
 ouster/lidar_scan.h
-/home/alejandro/TFG/catkin_ws/src/ouster_viz/include/ouster/ouster/lidar_scan.h
+/home/alejandro/catkin_ws/src/ouster_viz/include/ouster/ouster/lidar_scan.h
 
 /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
 string

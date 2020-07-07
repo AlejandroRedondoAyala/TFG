@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
+  "/home/alejandro/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
 )
 
 # Per-language clean rules from dependency scanning.

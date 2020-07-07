@@ -67,14 +67,14 @@ set(rotors_evaluation_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rotors_evaluation_SOURCE_PREFIX /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_evaluation)
-  set(rotors_evaluation_DEVEL_PREFIX /home/alejandro/TFG/catkin_ws/devel/.private/rotors_evaluation)
+  set(rotors_evaluation_SOURCE_PREFIX /home/alejandro/catkin_ws/src/rotors_simulator/rotors_evaluation)
+  set(rotors_evaluation_DEVEL_PREFIX /home/alejandro/catkin_ws/devel/.private/rotors_evaluation)
   set(rotors_evaluation_INSTALL_PREFIX "")
   set(rotors_evaluation_PREFIX ${rotors_evaluation_DEVEL_PREFIX})
 else()
   set(rotors_evaluation_SOURCE_PREFIX "")
   set(rotors_evaluation_DEVEL_PREFIX "")
-  set(rotors_evaluation_INSTALL_PREFIX /home/alejandro/TFG/catkin_ws/install)
+  set(rotors_evaluation_INSTALL_PREFIX /home/alejandro/catkin_ws/install)
   set(rotors_evaluation_PREFIX ${rotors_evaluation_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alejandro/TFG/catkin_ws/install/lib;/home/alejandro/TFG/catkin_ws/devel/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/alejandro/catkin_ws/install/lib;/home/alejandro/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

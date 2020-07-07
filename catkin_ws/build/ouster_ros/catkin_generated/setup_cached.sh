@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros:$CMAKE_PREFIX_PATH"
-export PWD="/home/alejandro/TFG/catkin_ws/build/ouster_ros"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/TFG/catkin_ws/devel/.private/ouster_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alejandro/TFG/catkin_ws/src/ouster_ros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/alejandro/catkin_ws/devel/.private/ouster_ros:$CMAKE_PREFIX_PATH"
+export PWD="/home/alejandro/catkin_ws/build/ouster_ros"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/alejandro/catkin_ws/devel/.private/ouster_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/alejandro/catkin_ws/src/ouster_ros:$ROS_PACKAGE_PATH"

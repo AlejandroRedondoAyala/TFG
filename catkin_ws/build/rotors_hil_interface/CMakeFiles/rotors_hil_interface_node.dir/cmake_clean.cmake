@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node"
 )
 
 # Per-language clean rules from dependency scanning.

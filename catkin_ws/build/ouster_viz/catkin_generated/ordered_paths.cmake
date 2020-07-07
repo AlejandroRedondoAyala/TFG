@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/alejandro/TFG/catkin_ws/devel/.private/ouster_client/lib")
+set(ORDERED_PATHS "/home/alejandro/catkin_ws/devel/.private/ouster_client/lib")

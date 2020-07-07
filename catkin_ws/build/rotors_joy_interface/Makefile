@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/TFG/catkin_ws/src/rotors_simulator/rotors_joy_interface
+CMAKE_SOURCE_DIR = /home/alejandro/catkin_ws/src/rotors_simulator/rotors_joy_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/TFG/catkin_ws/build/rotors_joy_interface
+CMAKE_BINARY_DIR = /home/alejandro/catkin_ws/build/rotors_joy_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/rotors_joy_interface/CMakeFiles /home/alejandro/TFG/catkin_ws/build/rotors_joy_interface/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/rotors_joy_interface/CMakeFiles /home/alejandro/catkin_ws/build/rotors_joy_interface/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/TFG/catkin_ws/build/rotors_joy_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/catkin_ws/build/rotors_joy_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

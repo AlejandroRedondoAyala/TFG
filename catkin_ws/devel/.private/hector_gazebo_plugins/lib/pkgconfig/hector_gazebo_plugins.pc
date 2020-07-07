@@ -1,8 +1,8 @@
-prefix=/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins
+prefix=/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins
 
 Name: hector_gazebo_plugins
 Description: Description of hector_gazebo_plugins
 Version: 0.5.1
-Cflags: -I/home/alejandro/TFG/catkin_ws/devel/.private/hector_gazebo_plugins/include -I/home/alejandro/TFG/catkin_ws/src/hector_gazebo_plugins/include
+Cflags: -I/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/include -I/home/alejandro/catkin_ws/src/hector_gazebo_plugins/include
 Libs: -L${prefix}/lib 
 Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

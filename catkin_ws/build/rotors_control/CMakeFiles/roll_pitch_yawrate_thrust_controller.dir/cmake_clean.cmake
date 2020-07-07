@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

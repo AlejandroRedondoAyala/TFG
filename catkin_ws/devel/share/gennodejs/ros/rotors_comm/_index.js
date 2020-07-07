@@ -1,1 +1,1 @@
-/home/alejandro/TFG/catkin_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/_index.js
+/home/alejandro/catkin_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/_index.js

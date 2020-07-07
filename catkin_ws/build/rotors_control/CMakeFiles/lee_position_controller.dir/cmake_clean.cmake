@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib/liblee_position_controller.pdb"
-  "/home/alejandro/TFG/catkin_ws/devel/.private/rotors_control/lib/liblee_position_controller.so"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_control/lib/liblee_position_controller.pdb"
+  "/home/alejandro/catkin_ws/devel/.private/rotors_control/lib/liblee_position_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.
