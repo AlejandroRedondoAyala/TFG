@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/ouster_gazebo_plugins/lib/pkgconfig/ouster_gazebo_plugins.pc

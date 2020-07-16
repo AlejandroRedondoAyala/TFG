@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/alejandro/catkin_ws/devel/.private/ouster_viz/lib/libouster_viz.a  CMakeFiles/ouster_viz.dir/src/viz.cpp.o
-/usr/bin/ranlib /home/alejandro/catkin_ws/devel/.private/ouster_viz/lib/libouster_viz.a

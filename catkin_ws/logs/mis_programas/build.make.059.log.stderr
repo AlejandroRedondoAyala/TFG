@@ -1,7 +1,0 @@
-[01m[K/home/alejandro/catkin_ws/src/mis_programas/src/control_velocidad.cpp:[m[K In function ‘[01m[Kvoid odom_callback(const ConstPtr&)[m[K’:
-[01m[K/home/alejandro/catkin_ws/src/mis_programas/src/control_velocidad.cpp:96:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K::[m[K’ token
-     ros::Rate(0.1)::sleep();
-[01;32m[K                   ^[m[K
-make[2]: *** [CMakeFiles/control_velocidad.dir/src/control_velocidad.cpp.o] Error 1
-make[1]: *** [CMakeFiles/control_velocidad.dir/all] Error 2
-make: *** [all] Error 2

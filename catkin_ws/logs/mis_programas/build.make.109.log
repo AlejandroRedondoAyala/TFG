@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target control_velocidad[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/control_velocidad.dir/src/control_velocidad.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/alejandro/catkin_ws/devel/.private/mis_programas/lib/mis_programas/control_velocidad[0m
-[100%] Built target control_velocidad

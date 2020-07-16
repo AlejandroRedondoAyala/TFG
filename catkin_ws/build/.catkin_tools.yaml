@@ -1,6 +1,0 @@
-devel_space: /home/alejandro/catkin_ws/devel
-install: false
-install_space: /home/alejandro/catkin_ws/install
-profile: default
-source_space: /home/alejandro/catkin_ws/src
-workspace: /home/alejandro/catkin_ws

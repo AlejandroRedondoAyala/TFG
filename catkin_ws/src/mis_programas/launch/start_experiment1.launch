@@ -1,0 +1,9 @@
+<launch>
+    <arg    name="max_vel"  default="0.25"  />
+    <node   pkg     =   "mis_programas"
+            type    =   "experimento1"
+            name    =   "experimento1"
+            output  =   "screen" 
+            args    =   "$(arg max_vel)"   >
+    </node>            
+</launch>

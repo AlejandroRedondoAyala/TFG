@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/ouster_ros/lib/python2.7/dist-packages/ouster_ros/__init__.py

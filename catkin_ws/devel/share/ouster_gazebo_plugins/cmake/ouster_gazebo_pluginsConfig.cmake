@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/ouster_gazebo_plugins/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig.cmake

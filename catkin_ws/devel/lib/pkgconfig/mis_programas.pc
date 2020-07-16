@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/mis_programas/lib/pkgconfig/mis_programas.pc

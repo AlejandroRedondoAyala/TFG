@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/ouster_description/share/ouster_description/cmake/ouster_descriptionConfig.cmake

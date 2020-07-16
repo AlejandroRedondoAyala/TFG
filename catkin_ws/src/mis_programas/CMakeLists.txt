@@ -137,7 +137,9 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(control_velocidad src/control_velocidad.cpp)
-
+add_executable(velocidad_en_X src/velocidad_en_X.cpp)
+add_executable(experimento4 src/experimento4.cpp)
+add_executable(velocidad_en_Y src/velocidad_en_Y.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -150,7 +152,9 @@ add_executable(control_velocidad src/control_velocidad.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(control_velocidad  ${catkin_LIBRARIES})
-
+target_link_libraries(velocidad_en_X  ${catkin_LIBRARIES})
+target_link_libraries(experimento4  ${catkin_LIBRARIES})
+target_link_libraries(velocidad_en_Y  ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############

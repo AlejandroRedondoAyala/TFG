@@ -1,8 +1,0 @@
-prefix=/home/alejandro/catkin_ws/devel/.private/ouster_ros
-
-Name: ouster_ros
-Description: Description of ouster_ros
-Version: 0.1.0
-Cflags: -I/home/alejandro/catkin_ws/devel/.private/ouster_ros/include -I/home/alejandro/catkin_ws/src/ouster_ros/include
-Libs: -L${prefix}/lib -louster_ros
-Requires: roscpp message_runtime pcl_ros std_msgs sensor_msgs geometry_msgs ouster_client ouster_viz

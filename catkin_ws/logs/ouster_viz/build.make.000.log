@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target ouster_viz[0m
-[ 20%] [32mBuilding CXX object CMakeFiles/ouster_viz.dir/src/viz.cpp.o[0m
-[35m[1mScanning dependencies of target viz[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/viz.dir/src/main.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/viz.dir/src/viz.cpp.o[0m
-[ 80%] [32m[1mLinking CXX static library /home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib/libouster_viz.a[0m
-[ 80%] Built target ouster_viz
-[100%] [32m[1mLinking CXX executable /home/alejandro/TFG/catkin_ws/devel/.private/ouster_viz/lib/ouster_viz/viz[0m
-[100%] Built target viz

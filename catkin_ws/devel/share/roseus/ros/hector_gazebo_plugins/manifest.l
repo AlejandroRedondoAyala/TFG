@@ -1,1 +1,0 @@
-/home/alejandro/catkin_ws/devel/.private/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/manifest.l
