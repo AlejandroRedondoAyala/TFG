@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+   <model name="recta20,00m">
+      <static>true</static>
+      <link name="recta20,00m_link">
+         <collision name="recta20,00m_collision">
+            <pose>5 10 0.10  0 0 0</pose>
+            <geometry>
+               <box>
+                  <size>30 20 0.20</size>
+               </box>
+            </geometry>
+         </collision>
+         <visual name="recta20,00m_mesh">
+            <cast_shadows>false</cast_shadows>
+            <geometry>
+               <mesh>
+                  <uri>model://recta20,00m/meshes/recta20,00m.dae</uri>
+               </mesh>
+            </geometry>
+         </visual>
+      </link>
+   </model>
+</sdf>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+   <model name="cruce3">
+      <static>true</static>
+      <link name="cruce3_link">
+         <collision name="cruce3_collision">
+            <pose>15 15 0.10  0 0 0</pose>
+            <geometry>
+               <box>
+                  <size>30 30 0.20</size>
+               </box>
+            </geometry>
+         </collision>
+         <visual name="cruce3_mesh">
+            <cast_shadows>true</cast_shadows>
+            <geometry>
+               <mesh>
+                  <uri>model://cruce3/meshes/cruce3.dae</uri>
+               </mesh>
+            </geometry>
+         </visual>
+      </link>
+   </model>
+</sdf>

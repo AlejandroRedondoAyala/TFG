@@ -77,7 +77,7 @@ void odom_callback(const nav_msgs::Odometry::ConstPtr & msg){
     // ya que en desplazamientos largos puede variar ligeramente la posición en los otros ejes al que nos estemos moviendo
     //especialmente si nos movemos en el eje Z
 
-    trajectory_msg.points[0].transforms[0].translation.x = 5.0; 
+    trajectory_msg.points[0].transforms[0].translation.x = 35.0; 
     //trajectory_msg.points[0].transforms[0].translation.y = 0.0;
     trajectory_msg.points[0].transforms[0].translation.z = 5.0; //Conveniente si se va a mover mucho en X o en Y para que no suba mucho, comentar esta línea si se desea mover el dron en Z
 

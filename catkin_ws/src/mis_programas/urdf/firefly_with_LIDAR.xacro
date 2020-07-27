@@ -5,7 +5,7 @@
 <xacro:include filename="$(find rotors_description)/urdf/firefly_base.xacro"/>
 
 <xacro:include filename="$(find ouster_description)/urdf/OS1-64.urdf.xacro"/>
-<OS1-64 parent="${namespace}/base_link" name="${namespace}/os1_sensor" topic_points="${namespace}/os1_cloud_node/points" topic_imu="${namespace}/os1_cloud_node/imu" hz="10" lasers="64" samples="220" min_range="0.9" max_range="75.0" lidar_link="${namespace}/os1_lidar" imu_link="${namespace}/os1_imu" vfov_min="-0.3927" vfov_max="0.3927">
+<OS1-64 parent="${namespace}/base_link" name="${namespace}/os1_sensor" topic_points="${namespace}/os1_cloud_node/points" topic_imu="${namespace}/os1_cloud_node/imu" hz="10" lasers="64" samples="1024" min_range="0.9" max_range="75.0" lidar_link="${namespace}/os1_lidar" imu_link="${namespace}/os1_imu" vfov_min="-0.3927" vfov_max="0.3927">
 <origin xyz="0 0 -0.0365" rpy="0 0 0"/>
 </OS1-64>
 </robot>

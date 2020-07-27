@@ -11,10 +11,13 @@
       (even when Gazebo is started through roslaunch) -->
   <arg name="verbose" default="false"/>
 
-  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find rotors_gazebo)/models"/>
-  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find rotors_gazebo)/models"/>
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find rotors_gazebo)/models:$(find mis_programas_gazebo)/models"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find rotors_gazebo)/models:$(find mis_programas_gazebo)/models"/>
+
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find rotors_gazebo)/worlds/$(arg world_name).world" />
+    <!--<arg name="world_name" value="$(find rotors_gazebo)/worlds/$(arg world_name).world" /> -->
+    <arg name="world_name" value="$(find mis_programas_gazebo)/worlds/prueba3.world" />
+
     <arg name="debug" value="$(arg debug)" />
     <arg name="paused" value="$(arg paused)" />
     <arg name="gui" value="$(arg gui)" />
@@ -31,7 +34,8 @@
 
       <arg name="namespace" value="firefly_1"/>
 
-      <arg name="x" value="-10.0" />
+      <arg name="x" value="0.0" />
+      <arg name="z" value="0.30" />
 
     </include>
     <node name="lee_position_controller_node" pkg="rotors_control" type="lee_position_controller_node" output="screen">
@@ -42,8 +46,8 @@
     <!-- <node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="-10 0 5 0 5"/>
-    <arg    name="max_vel_1"  default="0.25"  />
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="0 0 5 0 5"/>
+    <arg    name="max_vel_1"  default="0.4"  />
     <node   pkg     =   "mis_programas"
             type    =   "velocidad_en_X"
             name    =   "velocidad_en_X"
@@ -62,7 +66,8 @@
 
       <arg name="namespace" value="firefly_2"/>
 
-       <arg name="x" value="15.0" />
+       <arg name="x" value="35.0" />
+       <arg name="z" value="0.30" />
 
     </include>
     <node name="lee_position_controller_node" pkg="rotors_control" type="lee_position_controller_node" output="screen">
@@ -73,8 +78,8 @@
     <!--<node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="15 0 1 0 5"/>
-    <arg    name="max_vel_2"  default="0.25"  />
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="35 0 1 0 5"/>
+    <arg    name="max_vel_2"  default="0.3"  />
     <node   pkg     =   "mis_programas"
             type    =   "experimento4"
             name    =   "experimento4"

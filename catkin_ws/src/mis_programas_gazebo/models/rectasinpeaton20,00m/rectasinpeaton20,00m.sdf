@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+   <model name="rectasinpeaton20,00m">
+      <static>true</static>
+      <link name="rectasinpeaton20,00m_link">
+         <collision name="rectasinpeaton20,00m_collision">
+            <pose>5 10 0.10  0 0 0</pose>
+            <geometry>
+               <box>
+                  <size>30 20 0.20</size>
+               </box>
+            </geometry>
+         </collision>
+         <visual name="rectasinpeaton20,00m_mesh">
+            <cast_shadows>false</cast_shadows>
+            <geometry>
+               <mesh>
+                  <uri>model://rectasinpeaton20,00m/meshes/rectasinpeaton20,00m.dae</uri>
+               </mesh>
+            </geometry>
+         </visual>
+      </link>
+   </model>
+</sdf>
