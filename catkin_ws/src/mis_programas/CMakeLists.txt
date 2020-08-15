@@ -14,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
   mav_msgs
   roscpp
   sensor_msgs
+  pcl_ros
+  OpenCV
 )
 
 ## System dependencies are found with CMake's conventions
@@ -121,6 +123,7 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -140,6 +143,10 @@ add_executable(control_velocidad src/control_velocidad.cpp)
 add_executable(velocidad_en_X src/velocidad_en_X.cpp)
 add_executable(experimento4 src/experimento4.cpp)
 add_executable(velocidad_en_Y src/velocidad_en_Y.cpp)
+add_executable(PruebaPCL src/PruebaPCL.cpp)
+add_executable(PruebaPCLtoDM src/PruebaPCLtoDM.cpp)
+add_executable(pclToDepthMap src/pclToDepthMap.cpp)
+add_executable(pclToDepthMap_V2 src/pclToDepthMap_V2.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -155,6 +162,10 @@ target_link_libraries(control_velocidad  ${catkin_LIBRARIES})
 target_link_libraries(velocidad_en_X  ${catkin_LIBRARIES})
 target_link_libraries(experimento4  ${catkin_LIBRARIES})
 target_link_libraries(velocidad_en_Y  ${catkin_LIBRARIES})
+target_link_libraries(PruebaPCL  ${catkin_LIBRARIES})
+target_link_libraries(PruebaPCLtoDM  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(pclToDepthMap  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(pclToDepthMap_V2  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 #############
 ## Install ##
 #############
