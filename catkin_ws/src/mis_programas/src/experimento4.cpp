@@ -117,8 +117,10 @@ int main (int argc, char** argv){
         ROS_ERROR("Uso: rosrun mis_programas experimento4 <velocidad>");
         return -1;
     }
+    while(ros::Time::now() < ros::Time(15.0)){
 
-    ros::Duration(15.0).sleep();
+    }
+    //ros::Duration(15.0).sleep();
     ROS_INFO("Iniciando experimento en dron: %s : velocidad seleccionada: %f m/s", n.getNamespace().c_str(),max_vel);
 
 

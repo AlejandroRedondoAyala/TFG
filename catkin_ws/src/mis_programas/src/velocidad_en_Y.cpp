@@ -114,7 +114,10 @@ int main (int argc, char** argv){
         return -1;
     }
 
-    ros::Duration(15.0).sleep();
+    while(ros::Time::now() < ros::Time(15.0)){
+    }
+
+    //ros::Duration(15.0).sleep();
     ROS_INFO("Iniciando experimento en dron: %s : velocidad seleccionada: %f m/s", n.getNamespace().c_str(),max_vel);
 
 

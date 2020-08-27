@@ -147,6 +147,8 @@ add_executable(PruebaPCL src/PruebaPCL.cpp)
 add_executable(PruebaPCLtoDM src/PruebaPCLtoDM.cpp)
 add_executable(pclToDepthMap src/pclToDepthMap.cpp)
 add_executable(pclToDepthMap_V2 src/pclToDepthMap_V2.cpp)
+add_executable(rosbag_prueba src/rosbag_prueba.cpp)
+add_executable(my_rosbag_record src/my_rosbag_record.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -166,6 +168,8 @@ target_link_libraries(PruebaPCL  ${catkin_LIBRARIES})
 target_link_libraries(PruebaPCLtoDM  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 target_link_libraries(pclToDepthMap  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 target_link_libraries(pclToDepthMap_V2  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(rosbag_prueba  ${catkin_LIBRARIES})
+target_link_libraries(my_rosbag_record  ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############

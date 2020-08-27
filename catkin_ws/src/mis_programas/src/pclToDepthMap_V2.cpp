@@ -20,9 +20,9 @@ int main (int argc, char** argv)
     else{
         std::cout << "ERROR en argumentos" << std::endl;
         std::cout << "  El comando para ejecutar el programa debe ser del estilo: " << std::endl;
-        std::cout << "  rosrun mis_programas PruebaPCLtoDM experimento1_64" << std::endl;
+        std::cout << "  rosrun mis_programas PruebaPCLtoDM experimento1_64_real " << std::endl;
         std::cout << "  SOLO debe haber 1 argumento, y este tiene que ser necesariamente de esta forma" <<std::endl;
-        std::cout << "  Indicando el numero de experimento y el numero de planos verticales en él" << std::endl;
+        std::cout << "  Indicando el numero de experimento y el numero de planos verticales y el escenario real" << std::endl;
         std::cout << "  Es el mismo nombre de la carpeta donde está el .bag correspondiente" << std::endl;
         return -1;
     }
@@ -43,8 +43,8 @@ int main (int argc, char** argv)
         std::cout << "ERROR: " << std::endl;
         std::cout << "  No existe el directorio point_clouds puede ser que no se haya creado los ficheros .pcd" << std::endl;
         std::cout << "  Para crear dichos ficheros ejecutar donde tengas el .bag del experimento el siguiente comando en un terminal" << std::endl;
-        std::cout << "  rosrun pcl_ros bag_to_pcd experimento3_64.bag /firefly_1/firefly_1/os1_cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento3_64/point_clouds" << std::endl;
-        std::cout << "  Cambiando experimento3_64 por el que corresponda" << std::endl;
+        std::cout << "  rosrun pcl_ros bag_to_pcd experimento3_64_real.bag /firefly_1/firefly_1/os1_cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento3_64_real/point_clouds" << std::endl;
+        std::cout << "  Cambiando experimento3_64_real por el que corresponda" << std::endl;
         return -1;
     }
 

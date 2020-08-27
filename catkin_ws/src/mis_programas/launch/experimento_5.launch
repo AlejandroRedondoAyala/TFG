@@ -1,12 +1,17 @@
 <launch>
   <arg name="mav_name" default="firefly"/>
-  <arg name="world_name" default="basic"/>
+  <arg name="world_name" default="vacio"/>
   <arg name="enable_logging" default="false" />
   <arg name="enable_ground_truth" default="true" />
   <arg name="log_file" default="$(arg mav_name)" />
   <arg name="debug" default="false"/>
   <arg name="gui" default="true"/>
   <arg name="paused" default="false"/>
+  
+  <arg name="laser" default="64" />
+  <arg name="use_sim_time" default="true"/>
+  <param name="/use_sim_time" value="$(arg use_sim_time)"/>
+
   <!-- The following line causes gzmsg and gzerr messages to be printed to the console
       (even when Gazebo is started through roslaunch) -->
   <arg name="verbose" default="false"/>
@@ -16,7 +21,7 @@
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <!--<arg name="world_name" value="$(find rotors_gazebo)/worlds/$(arg world_name).world" /> -->
-    <arg name="world_name" value="$(find mis_programas_gazebo)/worlds/prueba3.world" />
+    <arg name="world_name" value="$(find mis_programas_gazebo)/worlds/$(arg world_name).world" />
 
     <arg name="debug" value="$(arg debug)" />
     <arg name="paused" value="$(arg paused)" />
@@ -27,7 +32,7 @@
   <group ns="firefly_1">
     <include file="$(find rotors_gazebo)/launch/spawn_mav.launch">
       <arg name="mav_name" value="firefly" />
-      <arg name="model" value="$(find mis_programas)/urdf/my_mav_generic_odometry_sensor.gazebo" />
+      <arg name="model" value="$(find mis_programas)/urdf/my_mav_generic_odometry_sensor_$(arg laser).gazebo" />
       <arg name="enable_logging" value="$(arg enable_logging)" />
       <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />
       <arg name="log_file" value="$(arg log_file)"/>
@@ -46,7 +51,7 @@
     <!-- <node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="0 0 5 0 5"/>
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="0 0 5 0 0"/>
     <arg    name="max_vel_1"  default="0.6"  />
     <node   pkg     =   "mis_programas"
             type    =   "velocidad_en_X"
@@ -79,8 +84,8 @@
     <!--<node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="35 -20 5 0 5"/>
-    <arg    name="max_vel_2"  default="0.3"  />
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="35 -20 5 0 0"/>
+    <arg    name="max_vel_2"  default="0.4"  />
     <node   pkg     =   "mis_programas"
             type    =   "velocidad_en_Y"
             name    =   "velocidad_en_Y"
@@ -88,5 +93,16 @@
             args    =   "$(arg max_vel_2)"   >
     </node>  
   </group>
+
+  <arg name="grabar"  default = "false" />
+  <arg name="record_duration" default ="59.0" />
+  <arg name="experimento" value="experimento5" />
+  <node pkg     = "mis_programas"
+        type    = "my_rosbag_record"
+        name    = "my_rosbag_record"
+        output  = "screen" 
+        args    = "$(arg experimento) $(arg laser) $(arg record_duration) $(arg world_name)"
+        if      = "$(arg grabar)">
+  </node>
 
 </launch>
