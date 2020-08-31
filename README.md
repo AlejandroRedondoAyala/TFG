@@ -36,7 +36,9 @@ Ejecutar el siguiente comando:
 ```
 rosrun pcl_ros bag_to_pcd experimento5_64_real.bag /firefly_1/firefly_1/os1_cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento5_64_real/point_clouds
 ```
-Con lo que dentro del directoripo `experimento5_64_real` se creará una carpeta llamada `point_cloud` que contiene los ficheros .pcd, que los vamos a emplear para generar los depth_maps.
+Hay que indicarle al comando **el fichero .bag**, el **topic** de la nube de puntos, que es siempre el mismo, y por último el directorio donde se va a guardar los .pcd.\
+Por tanto sólo hay que cambiar de ese comando el nombre del fichero .bag y en la ruta del directorio point_cloud, cambiaremos `experimento5_64_real` por el experimento que corresponda.\
+Con lo que dentro del directorio `experimento5_64_real` se creará una carpeta llamada `point_cloud` que contiene los ficheros .pcd, que los vamos a emplear para generar los depth_maps.
 
 #### 3. Generar los depth_map
 En un terminal arrancar (si no está ya activo) el ROS_MASTER con el comando `roscore`.\
