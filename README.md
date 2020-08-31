@@ -34,8 +34,7 @@ En el terminal donde se guarden los rosbag cuya ruta deberia ser
 ```
 Ejecutar el siguiente comando:
 ```
-rosrun pcl_ros bag_to_pcd experimento5_64_real.bag /firefly_1/firefly_1/os1
-_cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento5_64_real/point_clouds
+rosrun pcl_ros bag_to_pcd experimento5_64_real.bag /firefly_1/firefly_1/os1_cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento5_64_real/point_clouds
 ```
 Con lo que dentro del directoripo `experimento5_64_real` se creará una carpeta llamada `point_cloud` que contiene los ficheros .pcd, que los vamos a emplear para generar los depth_maps.
 
