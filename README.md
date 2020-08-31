@@ -39,7 +39,7 @@ _cloud_node/points /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experime
 ```
 Con lo que dentro del directoripo `experimento5_64_real` se creará una carpeta llamada `point_cloud` que contiene los ficheros .pcd, que los vamos a emplear para generar los depth_maps.
 
-### 3. Generar los depth_map
+#### 3. Generar los depth_map
 En un terminal arrancar (si no está ya activo) el ROS_MASTER con el comando `roscore`.\
 En un terminal ejecutar el siguiente comando:
 ```
@@ -47,6 +47,14 @@ rosrun mis_programas pclToDepthMap_V2 experimento5_64_real
 ```
 Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser y el escenario en el que se hizo la simulación.\
 Tras esto se creará la carpeta `depth_map` dentro de `mis_programas/bagfiles/experimento5_64_real`. que contiene los depth_map de la simulación real.
+
+#### 4. Grabar las simulaciones con el mundo vacio
+Necesarias para el etiquetado de las imágenes. Para ello hacer lo mismo que en el paso 1 cambiando real por vacio:
+```
+roslauch mis_programas experimento5.launch world_name:=vacio laser:=64 grabar:=true
+```
+Es muy importante que las velocidades de los drones en ambas grabaciones (escenario real y vacio) sean las mismas, ya que, si no no serían comparables y el etiquetado no funcionaria.
+
 
 
 
