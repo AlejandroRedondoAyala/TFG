@@ -80,6 +80,13 @@ int main(int argc, char **argv){
             return -1;
         }
     }
+    if((boost::filesystem::exists(directorio_bagfiles + "/point_clouds")))
+    {
+        ROS_WARN_STREAM ("El directorio " << directorio_bagfiles << "/point_clouds ya existe. \n");
+        std::cout << "Para hacer una nueva grabación es necesario eliminar el directorio point_cloud y sus ficheros\n";
+        std::cout << "Se van a eliminar dichos ficheros. \n\n";
+        boost::filesystem::remove_all(directorio_bagfiles + "/point_clouds");
+    }
     directorio_bagfiles += "/"+ experimento +"_" + laser + "_" + escenario + ".bag";
 
     bag.open(directorio_bagfiles, rosbag::bagmode::Write );

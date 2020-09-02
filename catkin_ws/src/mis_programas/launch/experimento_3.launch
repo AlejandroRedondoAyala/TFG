@@ -94,7 +94,7 @@
   </group>
 
   <arg name="grabar"  default = "false" />
-  <arg name="record_duration" default ="47.0" />
+  <arg name="record_duration" default ="46.0" />
   <arg name="experimento" value="experimento3" />
   <node pkg     = "mis_programas"
         type    = "my_rosbag_record"
