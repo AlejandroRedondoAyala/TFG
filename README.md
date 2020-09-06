@@ -10,7 +10,7 @@ Los parámetros que necesita son tres:
 
 * **world_name**\
 El valor por defecto es vacio.\
-Para el correcto funcionamiento es necesario indicar que se va a usar el mundo real.\
+Para el correcto funcionamiento es necesario indicar que se va a usar el mundo real.  
 
   - world_name:=**real**: Se muestra el escenario completo con coches y edificios.
   
@@ -46,16 +46,17 @@ En un terminal ejecutar el siguiente comando:
 ```
 rosrun mis_programas labeller_paralelepipedo experimento1_64
 ```
-Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser.\
-Tras esto se cren 3 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.\
+Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser.  
+Tras esto se cren 3 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.  
 
 * **depth_map**: En esta carpeta se guardan las imágenes .png correspondientes a los mapas de profundidad.
-* **BW_map**: En esta carpeta se guardan las imágenes en blanco y negro que se mandan a la función bounding_rect.\ **NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo.cpp`.\
-* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo.cpp`.\
-* **label**: En esta carpeta se guardan los ficheros .txt que son necesarios para el entrenamiento del modelo.\
+* **BW_map**: En esta carpeta se guardan las imágenes en blanco y negro que se mandan a la función bounding_rect.  
+**NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo.cpp`.  
+* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo.cpp`.  
+* **label**: En esta carpeta se guardan los ficheros .txt que son necesarios para el entrenamiento del modelo.  
 
 Este paso lo hace el fichero `labeller_paralelepipedo.cpp` que está ubicado en la ruta 
-`/catkin_ws/src/mis_programas/src`.\
+`/catkin_ws/src/mis_programas/src`.  
 
 
 
