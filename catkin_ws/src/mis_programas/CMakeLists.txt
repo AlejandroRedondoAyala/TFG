@@ -152,6 +152,8 @@ add_executable(my_rosbag_record src/my_rosbag_record.cpp)
 add_executable(pruebaBounding src/pruebaBounding.cpp)
 add_executable(prueba_read_bag src/prueba_read_bag.cpp)
 add_executable(my_image_labeller src/my_image_labeller.cpp)
+add_executable(prueba_paralelepipedo src/prueba_paralelepipedo.cpp)
+add_executable(labeller_paralelepipedo src/labeller_paralelepipedo.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -176,7 +178,8 @@ target_link_libraries(my_rosbag_record  ${catkin_LIBRARIES})
 target_link_libraries(pruebaBounding  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 target_link_libraries(prueba_read_bag  ${catkin_LIBRARIES})
 target_link_libraries(my_image_labeller  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
-
+target_link_libraries(prueba_paralelepipedo  ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(labeller_paralelepipedo ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 #############
 ## Install ##
 #############

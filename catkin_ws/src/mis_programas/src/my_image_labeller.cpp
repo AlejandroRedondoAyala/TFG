@@ -123,9 +123,9 @@ int main (int argc, char **argv){
         cloud_t = *cloud;
         std::stringstream ss;
         ss <<cloud_t.header.stamp;  
-        std::cerr << cloud_t.header.stamp <<std::endl;
+        //std::cerr << cloud_t.header.stamp <<std::endl;
         nombre_mensajes_real.push_back(ss.str());
-        std::cerr << "aaaaaa "<< ss.str() <<std::endl;
+        //std::cerr << "aaaaaa "<< ss.str() <<std::endl;
         ++view_it;
     }
     /*Lectura de los timestamp de los mensajes, coincidentes con los nombres de los .pcd*/
@@ -214,7 +214,7 @@ int main (int argc, char **argv){
             //std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
             //std::cout.rdbuf(out.rdbuf());
             /*Escritura del cout en un fichero*/
-            std::cout << "Antes de modificar: \n " << modificada << "\n";
+            //std::cout << "Antes de modificar: \n " << modificada << "\n";
             for (int row = 0; row < modificada.rows; row++){
                 for(int col = 0; col < modificada.cols; col++){                    
                     if(modificada.at<float>(row,col)<255){
