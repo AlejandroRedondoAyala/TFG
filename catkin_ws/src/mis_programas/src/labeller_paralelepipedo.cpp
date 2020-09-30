@@ -27,7 +27,7 @@ int main (int argc, char ** argv){
 
     //Definicion de la caja que contiene al dron
 
-    float x_box = 0.65, y_box = 0.65, z_box = 0.20;
+    float x_box = 0.65, y_box = 0.65, z_box = 0.30;
     
 
     std::string experimento;
@@ -215,6 +215,7 @@ int main (int argc, char ** argv){
         z1 = odom1_t.pose.pose.position.z;
         z1 = z1 - 0.0365; //El origen del LIDAR no coincide con el origen del dron
 
+
         nav_msgs::Odometry::ConstPtr odom2;
         nav_msgs::Odometry odom2_t;
         odom2 = odom2_view_it -> instantiate<nav_msgs::Odometry>();
@@ -275,7 +276,8 @@ int main (int argc, char ** argv){
                 
             }
 
-            depth_map.at<float>(_v,_u)=_r;
+            //depth_map.at<float>(_v,_u)=_r;
+            depth_map.at<float>(_v,_u)=_x;
 
 
 

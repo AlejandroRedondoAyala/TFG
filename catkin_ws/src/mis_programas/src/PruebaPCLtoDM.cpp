@@ -90,12 +90,12 @@ int main (int argc, char** argv)
     std::cout.rdbuf(out.rdbuf());
 
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
-
+    
   cv::Mat depth_float(IMAGE_HEIGHT,IMAGE_WIDTH,CV_32FC1,cv::Scalar::all(75.0));
   //cv::Mat depth_float(IMAGE_HEIGHT,IMAGE_WIDTH,CV_32FC1);
   cv::Mat depth_float_gray(IMAGE_HEIGHT,IMAGE_WIDTH,CV_32FC1);
 
-  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/alejandro/catkin_ws/src/mis_programas/src/test_pcd.pcd", *cloud) == -1) //* load the file
+  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/alejandro/catkin_ws/src/mis_programas/src/test2.pcd", *cloud) == -1) //* load the file
   {
     PCL_ERROR ("Couldn't read file test_pcd.pcd \n");
     return (-1);
@@ -158,7 +158,8 @@ int main (int argc, char** argv)
          std::cout << " r: " <<_r;
          std::cout << " u: " <<_u;
          std::cout << " v: " <<_v << std::endl;
-         depth_float.at<float>(_v,_u)=_r;
+         depth_float.at<float>(_v,_u)= abs(_x);
+         //depth_float.at<float>(_v,_u)= _r;
 
     }  
         //Para pasar a escala de grises
