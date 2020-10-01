@@ -27,7 +27,7 @@ int main (int argc, char ** argv){
 
     //Definicion de la caja que contiene al dron
 
-    float x_box = 0.65, y_box = 0.65, z_box = 0.30;
+    float x_box = 0.65, y_box = 0.65, z_box = 0.45;
     
 
     std::string experimento;
