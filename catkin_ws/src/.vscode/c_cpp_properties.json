@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/alejandro/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/alejandro/catkin_ws/src/hector_gazebo_plugins/include/**",
+                "/home/alejandro/catkin_ws/src/mavros/libmavconn/include/**",
+                "/home/alejandro/catkin_ws/src/mav_comm/mav_msgs/include/**",
+                "/home/alejandro/catkin_ws/src/mav_comm/mav_planning_msgs/include/**",
+                "/home/alejandro/catkin_ws/src/mavros/mavros/include/**",
+                "/home/alejandro/catkin_ws/src/mavros/mavros_msgs/include/**",
+                "/home/alejandro/catkin_ws/src/mis_programas/include/**",
+                "/home/alejandro/catkin_ws/src/ouster_client/include/**",
+                "/home/alejandro/catkin_ws/src/ouster_gazebo_plugins/include/**",
+                "/home/alejandro/catkin_ws/src/ouster_ros/include/**",
+                "/home/alejandro/catkin_ws/src/ouster_viz/include/**",
+                "/home/alejandro/catkin_ws/src/rotors_simulator/rotors_control/include/**",
+                "/home/alejandro/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+                "/home/alejandro/catkin_ws/src/rotors_simulator/rotors_hil_interface/include/**",
+                "/home/alejandro/catkin_ws/src/rotors_simulator/rotors_joy_interface/include/**",
+                "/home/alejandro/catkin_ws/src/mavros/test_mavros/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,30 @@
+Resumen creación DATA_SET. 
+Total imagenes: 1549
+Total imagenes train: 1241
+Total imagenes test: 308
+ 
+EXPERIMENTO 1
+Total imagenes 1: 260
+Total imagenes train 1: 208
+Total imagenes test 1: 52
+ 
+EXPERIMENTO 2
+Total imagenes 2: 203
+Total imagenes train 2: 163
+Total imagenes test 2: 40
+ 
+EXPERIMENTO 3
+Total imagenes 3: 436
+Total imagenes train 3: 349
+Total imagenes test 3: 87
+ 
+EXPERIMENTO 4
+Total imagenes 4: 331
+Total imagenes train 4: 265
+Total imagenes test 4: 66
+ 
+EXPERIMENTO 5
+Total imagenes 5: 319
+Total imagenes train 5: 256
+Total imagenes test 5: 63
+ 

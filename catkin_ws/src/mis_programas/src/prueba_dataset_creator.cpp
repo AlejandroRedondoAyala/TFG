@@ -5,6 +5,7 @@
 #include <boost/filesystem.hpp>
 #include <string>
 #include <boost/sort/spreadsort/string_sort.hpp>
+#include <fstream>
 
 /*ordenar_string_names solo es válido en este caso que los números no continenen 0s delante, si tuvieran 0s no vale*/
 bool ordenar_string_names (const std::string& s1, const std::string& s2) {
@@ -75,7 +76,7 @@ int main (){
 
     for(int i = 0; i < ficheros_random_dm.size(); i++){
         
-        boost::filesystem::copy_file(ficheros_random_dm[i],(path_train_1 + "/" + std::to_string(i) + ".png"));
+        boost::filesystem::copy_file(ficheros_random_dm[i],(path_train_1 + "/" + std::to_string(i) + ".png"), boost::filesystem::copy_option::overwrite_if_exists);
     }
 
     for (int i = 0; i < ficheros_dm.size(); i++){
@@ -95,11 +96,29 @@ int main (){
         std::cout << ficheros_test_dm[i] << "\n ";
     }
 
+     for(int i = 0; i < ficheros_test_dm.size(); i++){
+        
+        boost::filesystem::copy_file(ficheros_test_dm[i],(path_test_1 + "/" + std::to_string(i) + ".png"), boost::filesystem::copy_option::overwrite_if_exists);
+    }
+
 
     std::cout << "\n";
     std::cout << "El numero de archivos es: " << ficheros_dm.size() << "\n";
     std::cout << "El 80% es: " << 0.8*numero_ficheros << "\n";
     int a = 001;
     std::cout << a << "\n";
+
+    std::fstream file;
+    file.open("/home/alejandro/catkin_ws/src/mis_programas/image_set_pruebas/prueba.txt", std::fstream::out);
+    file << "Esto es una prueba de escritura\n";
+    file.close();
+    file.open("/home/alejandro/catkin_ws/src/mis_programas/image_set_pruebas/prueba.txt", std::fstream::out | std::fstream::app);
+    file << "¿Se sobreescribira el texto anterior?\n";
+    file.close();
+    file.open("/home/alejandro/catkin_ws/src/mis_programas/image_set_pruebas/prueba.txt", std::fstream::out | std::fstream::app);
+    file << "Es necesario añadir std::fstream::app para evitar que se sobreescriba el contenido ya existente\n";
+    file.close();
+    
+
     return 0;
 }

@@ -44,19 +44,29 @@ Con lo que dentro del directorio `experimento5_64_real` se creará una carpeta l
 En un terminal arrancar (si no está ya activo) el ROS_MASTER con el comando `roscore`.\
 En un terminal ejecutar el siguiente comando:
 ```
-rosrun mis_programas labeller_paralelepipedo experimento1_64
+rosrun mis_programas labeller_paralelepipedo_V2 experimento1_64
 ```
 Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser.  
 Tras esto se cren 3 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.  
 
 * **depth_map**: En esta carpeta se guardan las imágenes .png correspondientes a los mapas de profundidad.
 * **BW_map**: En esta carpeta se guardan las imágenes en blanco y negro que se mandan a la función bounding_rect.  
-**NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo.cpp`.  
-* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo.cpp`.  
+**NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo_v2.cpp`.  
+* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo_v2.cpp`.  
 * **label**: En esta carpeta se guardan los ficheros .txt que son necesarios para el entrenamiento del modelo.  
 
-Este paso lo hace el fichero `labeller_paralelepipedo.cpp` que está ubicado en la ruta 
-`/catkin_ws/src/mis_programas/src`.  
+Este paso lo hace el fichero `labeller_paralelepipedo_v2.cpp` que está ubicado en la ruta 
+`/catkin_ws/src/mis_programas/src`.\
+En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiquetan aquellos depth_map que contengan dron, el resto no se guardan, esto es así para facilitar el etiquetado.
+
+#### 4. Generar el data set para entrenar
+Esto lo hace el fichero `dataset_creator.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
+En el cual a su vez se generaran dos directorios `train` y `test` y tres ficheros, `train.txt`, `test.txt` y `RESUMEN.txt`. Los dos primeros ficheros incluyen las direcciones relativas de las imágenes (de train y test), respecto al ejecutable `darknet` de YOLO. el tercer fichero contiene un resumen con el número de imágenes que se han guardado para train y para test\
+Dentro de los directorios creados se guardarán las imágenes junto con sus etiquetas correspondientes. Para la carpeta train, se seleccionan de forma aleatoria el 80% de imágenes de cada experimento y el 20% restante va a test.
+Para usarlo tras arrancar roscore ejecutar el siguiente comando:
+```
+rosrun mis_programas dataset_creator
+```
 
 
 

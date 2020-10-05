@@ -28,7 +28,7 @@ int main (int argc, char ** argv){
     cv::Mat imagen_original;
     std::string experimento;
     std::string imagen_original_path = "/home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento5_64_real/depth_map";
-    std::string directorio_pcd ="/home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento3_64_real/point_clouds/34.810000000.pcd";
+    std::string directorio_pcd ="/home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento3_64_real/point_clouds/17.130000000.pcd";
 
    
     std::vector <std::string> nombre_ficheros_pcd;
@@ -111,7 +111,7 @@ int main (int argc, char ** argv){
             std::cerr << "Posicion y: " << odom1_t.pose.pose.position.y << "\n";
             std::cerr << "Posicion z: " << odom1_t.pose.pose.position.z << "\n";
             
-            if(odom1_t.header.stamp.toSec() == 34.810000000 ){
+            if(odom1_t.header.stamp.toSec() == 17.130000000 ){
                 pose_1.push_back(odom1_t.pose.pose.position.x);
                 pose_1.push_back(odom1_t.pose.pose.position.y); 
                 pose_1.push_back(odom1_t.pose.pose.position.z);
@@ -134,7 +134,7 @@ int main (int argc, char ** argv){
             std::cerr << "Posicion y: " << odom2_t.pose.pose.position.y << "\n";
             std::cerr << "Posicion z: " << odom2_t.pose.pose.position.z << "\n";
 
-            if(odom2_t.header.stamp.toSec() == 34.810000000 ){
+            if(odom2_t.header.stamp.toSec() == 17.130000000 ){
                 pose_2.push_back(odom2_t.pose.pose.position.x);
                 pose_2.push_back(odom2_t.pose.pose.position.y); 
                 pose_2.push_back(odom2_t.pose.pose.position.z);
@@ -274,6 +274,7 @@ int main (int argc, char ** argv){
     std::cout << "br: " << boundingBox.br() << std::endl;
     std::cout << "size: " << boundingBox.size() << std::endl;
     std::cout << "area: " << boundingBox.area() << std::endl;
+    std::cout << "empty: " << boundingBox.empty() << std::endl;
 
     cv::namedWindow("window", CV_WINDOW_AUTOSIZE);
     cv::imshow("window", depth_float);
