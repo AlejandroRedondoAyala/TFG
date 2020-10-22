@@ -1,0 +1,117 @@
+<launch>
+  <arg name="mav_name" default="firefly"/>
+  <arg name="world_name" default="ejemplos_memoria"/>
+  <arg name="enable_logging" default="false" />
+  <arg name="enable_ground_truth" default="true" />
+  <arg name="log_file" default="$(arg mav_name)" />
+  <arg name="debug" default="false"/>
+  <arg name="gui" default="true"/>
+  <arg name="paused" default="false"/>
+
+  <arg name="laser" default="64" />
+  <arg name="use_sim_time" default="true"/>
+  <param name="/use_sim_time" value="$(arg use_sim_time)"/>
+  <!-- The following line causes gzmsg and gzerr messages to be printed to the console
+      (even when Gazebo is started through roslaunch) -->
+  <arg name="verbose" default="false"/>
+
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find rotors_gazebo)/models:$(find mis_programas_gazebo)/models"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find rotors_gazebo)/models:$(find mis_programas_gazebo)/models"/>
+  
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!--<arg name="world_name" value="$(find rotors_gazebo)/worlds/$(arg world_name).world" /> -->
+    <arg name="world_name" value="$(find mis_programas_gazebo)/worlds/$(arg world_name).world" />
+    
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="paused" value="$(arg paused)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="verbose" value="$(arg verbose)"/>
+  </include>
+
+  <group ns="firefly_1">
+    <include file="$(find rotors_gazebo)/launch/spawn_mav.launch">
+      <arg name="mav_name" value="firefly" />
+      <arg name="model" value="$(find mis_programas)/urdf/my_mav_generic_odometry_sensor_$(arg laser).gazebo" />
+      <arg name="enable_logging" value="$(arg enable_logging)" />
+      <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />
+      <arg name="log_file" value="$(arg log_file)"/>
+
+      <arg name="namespace" value="firefly_1"/>
+
+      <arg name="x" value="-8.0" />
+      <arg name="z" value="0.30" />
+
+    </include>
+    <node name="lee_position_controller_node" pkg="rotors_control" type="lee_position_controller_node" output="screen">
+      <rosparam command="load" file="$(find rotors_gazebo)/resource/lee_controller_$(arg mav_name).yaml" />
+      <rosparam command="load" file="$(find mis_programas)/resource/firefly_with_LIDAR.yaml" />
+      <remap from="odometry" to="odometry_sensor1/odometry" />
+    </node>
+    <!-- <node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="-8 0 2 0 0"/>
+    <arg    name="max_vel_1"  default="0.0"  />
+     
+  </group>
+
+  <group ns="$(arg mav_name)_2">
+    <include file="$(find rotors_gazebo)/launch/spawn_mav.launch">
+      <arg name="mav_name" value="$(arg mav_name)" />
+      <arg name="model" value="$(find rotors_description)/urdf/mav_generic_odometry_sensor.gazebo" />
+      <arg name="enable_logging" value="$(arg enable_logging)" />
+      <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />
+      <arg name="log_file" value="$(arg log_file)"/>
+
+      <arg name="namespace" value="firefly_2"/>
+
+       <arg name="y" value="80.0" />
+       <arg name="z" value="0.30" />
+
+    </include>
+    <node name="lee_position_controller_node" pkg="rotors_control" type="lee_position_controller_node" output="screen">
+      <rosparam command="load" file="$(find rotors_gazebo)/resource/lee_controller_$(arg mav_name).yaml" />
+      <rosparam command="load" file="$(find mis_programas)/resource/my_firefly.yaml" />
+      <remap from="odometry" to="odometry_sensor1/odometry" />
+    </node>
+    <!--<node name="hovering_example" pkg="rotors_gazebo" type="hovering_example" output="screen"/> -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="0 80 5 0 0"/>
+    <arg    name="max_vel_2"  default="0.0"  />
+    <node   pkg     =   "mis_programas"
+            type    =   "velocidad_en_X"
+            name    =   "velocidad_en_X"
+            output  =   "screen" 
+            args    =   "$(arg max_vel_2)"   >
+    </node>  
+  </group>
+
+  
+  
+  <!--Guardado de topic mediante rosbag-->
+  <!--<arg name="node_start_delay" default="30.0" />  
+  <arg name="grabar"  default = "false" /> 
+  <node pkg     = "rosbag"
+        type    = "record"
+        name    = "rosbag_experimento_1" 
+        output  = "screen" -->
+  <!--      args    = "record -O /home/alejandro/catkin_ws/src/mis_programas/bagfiles/experiencia1_$(arg world_name).bag --><!--duration=28 /firefly_1/firefly_1/os1_cloud_node/points /clock "
+        launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " 
+        if      = "$(arg grabar)" >
+         
+  </node> -->
+  <!--Guardado de topic mediante rosbag-->
+  
+  <arg name="grabar"  default = "false" />
+  <arg name="record_duration" default ="2.0" />
+  <arg name="experimento" value="experimento1" />
+  <node pkg     = "mis_programas"
+        type    = "my_rosbag_record"
+        name    = "my_rosbag_record"
+        output  = "screen" 
+        args    = "$(arg experimento) $(arg laser) $(arg record_duration) $(arg world_name)"
+        if      = "$(arg grabar)">
+  </node>
+</launch>

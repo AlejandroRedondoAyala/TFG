@@ -12,7 +12,7 @@ bool ordenar_nombres_string(const std::string& s1, const std::string& s2){
 }
 
 
-void random_set(unsigned int *n_train_total,unsigned int *n_test_total, std::string path_depth_maps, std::string path_labels_files, std::string path_train, std::string path_test, std::string path_train_TXT, std::string path_test_TXT){
+void random_set(unsigned int *n_train_total,unsigned int *n_test_total, std::string path_depth_maps, std::string path_labels_files, std::string path_train, std::string path_test, std::string path_train_TXT, std::string path_test_TXT, std::string path_info_TXT){
     std::vector<std::string> ficheros_dm;
     std::vector<std::string> ficheros_dm_names;
     std::vector<std::string> ficheros_label;
@@ -22,6 +22,7 @@ void random_set(unsigned int *n_train_total,unsigned int *n_test_total, std::str
     std::vector<std::string> ficheros_test_label;
     std::fstream file_train;
     std::fstream file_test;
+    std::fstream file_info;
     //std::vector <std::string> rutas_ficheros;
 
     for(const auto &narchivos : boost::filesystem::directory_iterator(path_depth_maps)){
@@ -123,6 +124,10 @@ void random_set(unsigned int *n_train_total,unsigned int *n_test_total, std::str
         file_test.open(path_test_TXT, std::fstream::out | std::fstream::app);
         file_test << "build/darknet/x64/data/obj/test/" << *n_test_total << ".png\n";
         file_test.close();
+        file_info.open(path_info_TXT, std::fstream::out | std::fstream::app);
+        file_info << "El fichero:  test/" << *n_test_total << ".png coresponde a:\n";
+        file_info << ficheros_test_dm[i] << "\n\n";
+        file_info.close();
         *n_test_total = *n_test_total + 1;
     }
 
@@ -141,6 +146,7 @@ int main(){
     std::string path_test_txt = path_image_set + "/test.txt";
     std::string path_train = path_image_set + "/train";
     std::string path_test = path_image_set + "/test";
+    std::string path_info = path_image_set + "/info";
 
     std::string path_depth_map_1 = "/home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento1_64_real/depth_map";    
     std::string path_label_1 ="/home/alejandro/catkin_ws/src/mis_programas/bagfiles/experimento1_64_real/label";
@@ -227,6 +233,19 @@ int main(){
         }
     }
 
+    if(!(boost::filesystem::exists(path_info))){
+        std::cerr << "AVISO: \n";
+        std::cerr << "NO existe el directorio " << path_info << "\n";
+        std::cerr << "Se va a crear. \n";
+        if(boost::filesystem::create_directory(path_info)){
+            std::cout << path_info << " creada correctamente \n";
+        }
+        else{
+            std::cout << "ERROR: no se pudo crear " << path_info << std::endl;
+            return -1;
+        }        
+    }
+
     if(!(boost::filesystem::exists(path_depth_map_1))){
         std::cerr << "ERROR: \n";
         std::cerr << "NO existe el fichero " << path_depth_map_1 << "\n";
@@ -240,24 +259,45 @@ int main(){
         return -1;
     }
 
+    std::fstream file_info;
 
-    random_set(&n_total_train,&n_total_test, path_depth_map_1,path_label_1,path_train,path_test,path_train_txt,path_test_txt);
+    file_info.open(path_info +"/experimento_1.txt",std::fstream::out | std::fstream::app);
+    file_info << "Experimento 1\n";
+    file_info << "Correspondencia ficheros test con los ficheros originales: \n\n";
+    file_info.close();
+    random_set(&n_total_train,&n_total_test, path_depth_map_1,path_label_1,path_train,path_test,path_train_txt,path_test_txt,(path_info +"/experimento_1.txt"));
     unsigned int train_1 = n_total_train;
     unsigned int test_1 = n_total_test;
-
-    random_set(&n_total_train,&n_total_test, path_depth_map_2,path_label_2,path_train,path_test,path_train_txt,path_test_txt);
+    
+    file_info.open(path_info +"/experimento_2.txt",std::fstream::out | std::fstream::app);
+    file_info << "Experimento 2\n";
+    file_info << "Correspondencia ficheros test con los ficheros originales: \n\n";
+    file_info.close();
+    random_set(&n_total_train,&n_total_test, path_depth_map_2,path_label_2,path_train,path_test,path_train_txt,path_test_txt,(path_info +"/experimento_2.txt"));
     unsigned int train_2 = n_total_train - train_1;
     unsigned int test_2 = n_total_test - test_1;
 
-    random_set(&n_total_train,&n_total_test, path_depth_map_3,path_label_3,path_train,path_test,path_train_txt,path_test_txt);
+    file_info.open(path_info +"/experimento_3.txt",std::fstream::out | std::fstream::app);
+    file_info << "Experimento 3\n";
+    file_info << "Correspondencia ficheros test con los ficheros originales: \n\n";
+    file_info.close();
+    random_set(&n_total_train,&n_total_test, path_depth_map_3,path_label_3,path_train,path_test,path_train_txt,path_test_txt, (path_info +"/experimento_3.txt"));
     unsigned int train_3 = n_total_train - train_1 - train_2;
     unsigned int test_3 = n_total_test - test_1 - test_2;
 
-    random_set(&n_total_train,&n_total_test, path_depth_map_4,path_label_4,path_train,path_test,path_train_txt,path_test_txt);
+    file_info.open(path_info +"/experimento_4.txt",std::fstream::out | std::fstream::app);
+    file_info << "Experimento 4\n";
+    file_info << "Correspondencia ficheros test con los ficheros originales: \n\n";
+    file_info.close();
+    random_set(&n_total_train,&n_total_test, path_depth_map_4,path_label_4,path_train,path_test,path_train_txt,path_test_txt, (path_info +"/experimento_4.txt"));
     unsigned int train_4 = n_total_train - train_1 - train_2 -train_3;
     unsigned int test_4 = n_total_test - test_1 - test_2 - test_3;
 
-    random_set(&n_total_train,&n_total_test, path_depth_map_5,path_label_5,path_train,path_test,path_train_txt,path_test_txt);
+    file_info.open(path_info +"/experimento_5.txt",std::fstream::out | std::fstream::app);
+    file_info << "Experimento 5\n";
+    file_info << "Correspondencia ficheros test con los ficheros originales: \n\n";
+    file_info.close();
+    random_set(&n_total_train,&n_total_test, path_depth_map_5,path_label_5,path_train,path_test,path_train_txt,path_test_txt, (path_info +"/experimento_5.txt"));
     unsigned int train_5 = n_total_train - train_1 - train_2 - train_3 - train_4;
     unsigned int test_5 = n_total_test - test_1 - test_2 - test_3 - test_4;
 

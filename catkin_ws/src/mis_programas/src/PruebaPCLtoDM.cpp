@@ -95,7 +95,7 @@ int main (int argc, char** argv)
   //cv::Mat depth_float(IMAGE_HEIGHT,IMAGE_WIDTH,CV_32FC1);
   cv::Mat depth_float_gray(IMAGE_HEIGHT,IMAGE_WIDTH,CV_32FC1);
 
-  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/alejandro/catkin_ws/src/mis_programas/src/test2.pcd", *cloud) == -1) //* load the file
+  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("/home/alejandro/catkin_ws/src/mis_programas/src/memoria.pcd", *cloud) == -1) //* load the file
   {
     PCL_ERROR ("Couldn't read file test_pcd.pcd \n");
     return (-1);
@@ -179,7 +179,7 @@ int main (int argc, char** argv)
         
         cv::namedWindow("Gray scale", CV_WINDOW_AUTOSIZE);
         cv::imshow("Gray scale", depth_float_gray);
-        cv::imwrite("/home/alejandro/catkin_ws/imagen/gris.png",depth_float_gray);
+        cv::imwrite("/home/alejandro/catkin_ws/imagen/memoria.png",depth_float_gray);
         cv::waitKey(0);
         
 
