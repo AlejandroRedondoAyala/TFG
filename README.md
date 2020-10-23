@@ -62,10 +62,10 @@ En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiqueta
 En la nueva versión (v3) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones.
 
 #### 4. Generar el data set para entrenar
-Esto lo hace el fichero `dataset_creator_v2.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
-En el cual a su vez se generaran tres directorios `train`, `test` e `info` y tres ficheros, `train.txt`, `test.txt` y `RESUMEN.txt`. Los dos primeros ficheros incluyen las direcciones relativas de las imágenes (de train y test), respecto al ejecutable `darknet` de YOLO. el tercer fichero contiene un resumen con el número de imágenes que se han guardado para train y para test\
-Dentro de los directorios creados se guardarán las imágenes junto con sus etiquetas correspondientes. Para la carpeta `train`, se seleccionan de forma aleatoria el 80% de imágenes de cada experimento y el 20% restante va a `test`.
-En el directorio `info` se almacena información sobre la correspondencia de las imágenes de test, con los depth maps de los distintos experimentos. Así se puede saber la posición y velocidad de ambos drones en las imágenes de test, y poder sacar conclusiones del trabajo.\
+Esto lo hace el fichero `dataset_creator_v3.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
+En el cual a su vez se generaran cuatro directorios `train`, `vlid`, `test` e `info` y cuatro ficheros, `train.txt`, `valid.txt`, `test.txt` y `RESUMEN.txt`. Los tres primeros ficheros incluyen las direcciones relativas de las imágenes (de train, valid y test), respecto al ejecutable `darknet` de YOLO. el cuarto fichero contiene un resumen con el número de imágenes que se han guardado para train, valid y test\
+Dentro de los directorios creados se guardarán las imágenes junto con sus etiquetas correspondientes. Para la carpeta `train`, se seleccionan de forma aleatoria el 70% de imágenes de cada experimento, para `valid` el 20% y el 10% restante va a `test`.
+En el directorio `info_test` e `info_valid` se almacena información sobre la correspondencia de las imágenes de test y valid, con los depth maps de los distintos experimentos. Así se puede saber la posición y velocidad de ambos drones en las imágenes de test, y poder sacar conclusiones del trabajo.\
 Para usarlo tras arrancar roscore ejecutar el siguiente comando:
 ```
 rosrun mis_programas dataset_creator
