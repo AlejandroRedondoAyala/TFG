@@ -44,22 +44,26 @@ Con lo que dentro del directorio `experimento5_64_real` se creará una carpeta l
 En un terminal arrancar (si no está ya activo) el ROS_MASTER con el comando `roscore`.\
 En un terminal ejecutar el siguiente comando:
 ```
-rosrun mis_programas labeller_paralelepipedo_v3 experimento1_64
+rosrun mis_programas labeller_paralelepipedo_v4 experimento1_64
 ```
 Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser.  
 Tras esto se cren 5 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.  
 
 * **depth_map**: En esta carpeta se guardan las imágenes .png correspondientes a los mapas de profundidad.
 * **BW_map**: En esta carpeta se guardan las imágenes en blanco y negro que se mandan a la función bounding_rect.  
-**NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo_v3.cpp`.  
-* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo_v3.cpp`.  
+**NOTA**: no es necesario generar estas imágenes para el correcto etiquetado, ya que internamente el programa trabaja con objetos cv::Mat. El hecho de sacar las imágenes es meramente ilustrativo y puede deshabilitarse sin problema en `labeller_paralelepipedo_v4.cpp`.  
+* **bounding_map**: En esta carpeta se guardan los depth_map en los que se ha dibujado el bounding_box generado por bounding_rect(). Nuevamente estas imágenes se generan simplemente de forma ilustrativa y para comprobar si el etiquetado se hace bien. No es necesario guardar estas imágenes para el entrenamiento, y puede desactivarse su generación en el fichero `labeller_paralelepipedo_v4.cpp`.  
 * **label**: En esta carpeta se guardan los ficheros .txt que son necesarios para el entrenamiento del modelo.  
 * **odom_information**: En esta carpeta se almacena para cada depth_map generado un fichero de texto con la información de los datos de odometría de los drones en la imagen. De esta forma después puedo comprobar cual era la posición real de los drones.
+* **all_depth_maps**: En esta carpeta se almacenan todos los depth_map generados, tengan o no tengan dron, para poder pasarselo al modelo entrenado a modo de pruebas después de haber hecho todo el proceso de validación y test. OJO, aquí no se generan etiquetas.
+* **extra_information**: En esta carpeta se generan dos ficheros, un .csv para poder pasar los datos de odometría a un formato que es sencillo de abrir en Excel, y otro fichero con las rutas absolutas de las imágenes de `all_depht_maps` para poder comprobar el funcionamiento del modelo entrenado en nuevas condiciones.
 
-Este paso lo hace el fichero `labeller_paralelepipedo_v3.cpp` que está ubicado en la ruta 
+Este paso lo hace el fichero `labeller_paralelepipedo_v4.cpp` que está ubicado en la ruta 
 `/catkin_ws/src/mis_programas/src`.\
 En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiquetan aquellos depth_map que contengan dron, el resto no se guardan, esto es así para facilitar el etiquetado.
 En la nueva versión (v3) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones.
+En la nueva versión (v4) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones en formato csv para poder sacar fácilmente gráficas en Excel. También se añade la generación de todos los depth_maps tengan o no tengan dron, eso sí estan sin etiquetar, ya que, no deben usarse no para validación ni para test. Por último se añade la creación de un fochero que facilite, pasar al modelo entrenado en YOLO todas las imágenes para obtener los resultados tras pasar por el modelo entrenado.
+
 
 #### 4. Generar el data set para entrenar
 Esto lo hace el fichero `dataset_creator_v3.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
