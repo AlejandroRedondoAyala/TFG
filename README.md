@@ -68,10 +68,10 @@ Tras esto se cren 9 carpetas dentro de `mis_programas/bagfiles/experimento5_64_r
 
 Este paso lo hace el fichero `labeller_paralelepipedo_v5.cpp` que está ubicado en la ruta 
 `/catkin_ws/src/mis_programas/src`.\
-En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiquetan aquellos depth_map que contengan dron, el resto no se guardan, esto es así para facilitar el etiquetado.
-En la nueva versión (v3) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones.
-En la nueva versión (v4) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones en formato csv para poder sacar fácilmente gráficas en Excel. También se añade la generación de todos los depth_maps tengan o no tengan dron, eso sí estan sin etiquetar, ya que, no deben usarse no para validación ni para test. Por último se añade la creación de un fochero que facilite, pasar al modelo entrenado en YOLO todas las imágenes para obtener los resultados tras pasar por el modelo entrenado.
-En la nueva versión (v5) de labeller_paralelepipedo, se añade la generación de las carpetas pos1_info y pos2_info. Además se añade la posibilidad de pasarle por argumento el número de planos verticales del LIDAR.
+En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiquetan aquellos depth_map que contengan dron, el resto no se guardan, esto es así para facilitar el etiquetado.\
+En la nueva versión (v3) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones.\
+En la nueva versión (v4) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones en formato csv para poder sacar fácilmente gráficas en Excel. También se añade la generación de todos los depth_maps tengan o no tengan dron, eso sí estan sin etiquetar, ya que, no deben usarse no para validación ni para test. Por último se añade la creación de un fichero que facilite, pasar al modelo entrenado en YOLO todas las imágenes para obtener los resultados tras pasar por el modelo entrenado.\
+En la nueva versión (v5) de labeller_paralelepipedo, se añade la generación de las carpetas pos1_info y pos2_info. Además se añade la posibilidad de pasarle por argumento el número de planos verticales del LIDAR.\
 
 #### 4. Generar el data set para entrenar
 Esto lo hace el fichero `dataset_creator_v3.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
