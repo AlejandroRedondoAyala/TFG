@@ -3,26 +3,32 @@
 #### 1. Crear ficheros rosbag de los experimentos con escenario real.
 En un terminal ejecutar:
 ```
-roslauch mis_programas experimento5.launch world_name:=real laser:=64 grabar:=true
+roslauch mis_programas experimento5.launch world_name:=real laser:=64 grabar:=true max_vel_1:=0.4 max_vel_2:=0.6
 ```
 
-Los parámetros que necesita son tres:
+Los parámetros que necesita son cinco:
 
 * **world_name**\
-El valor por defecto es vacio.\
+El valor por defecto es real.\
 Para el correcto funcionamiento es necesario indicar que se va a usar el mundo real.  
 
   - world_name:=**real**: Se muestra el escenario completo con coches y edificios.
   
 * **laser**
 Indica el número de planos verticales del LIDAR.\
-Puede ser 32 o 64.\
+Puede ser 32, 64 o 128.\
 Valor por defecto: 64
 
 * **grabar**
 Indica si se debe grabar un rosbag o simplemente visualizar el experimento.\
 Puede ser: **true** o **false**.\
 Valor por defecto: false.
+
+* **max_vel_1**
+Indica la velocidad a la que se va a mover el dron con el LIDAR.\
+
+* **max_vel_2**
+Indica la velocidad a la que se va a mover el dron objetivo.\
 
 Tras esto en la carpeta `bafiles` del paquete `mis_programas` se creará una carpeta con el nombre experimento5_64_real o el que corresponda.
 
@@ -44,10 +50,10 @@ Con lo que dentro del directorio `experimento5_64_real` se creará una carpeta l
 En un terminal arrancar (si no está ya activo) el ROS_MASTER con el comando `roscore`.\
 En un terminal ejecutar el siguiente comando:
 ```
-rosrun mis_programas labeller_paralelepipedo_v4 experimento1_64
+rosrun mis_programas labeller_paralelepipedo_v5 experimento1_64 64
 ```
-Es muy importante pasar un SOLO argumento correctamente, este indica el experimento, los planos verticales del láser.  
-Tras esto se cren 5 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.  
+Es muy importante pasar los argumentos correctamente, este indica el experimento y los planos verticales del láser.  
+Tras esto se cren 9 carpetas dentro de `mis_programas/bagfiles/experimento5_64_real`.  
 
 * **depth_map**: En esta carpeta se guardan las imágenes .png correspondientes a los mapas de profundidad.
 * **BW_map**: En esta carpeta se guardan las imágenes en blanco y negro que se mandan a la función bounding_rect.  
@@ -57,13 +63,15 @@ Tras esto se cren 5 carpetas dentro de `mis_programas/bagfiles/experimento5_64_r
 * **odom_information**: En esta carpeta se almacena para cada depth_map generado un fichero de texto con la información de los datos de odometría de los drones en la imagen. De esta forma después puedo comprobar cual era la posición real de los drones.
 * **all_depth_maps**: En esta carpeta se almacenan todos los depth_map generados, tengan o no tengan dron, para poder pasarselo al modelo entrenado a modo de pruebas después de haber hecho todo el proceso de validación y test. OJO, aquí no se generan etiquetas.
 * **extra_information**: En esta carpeta se generan dos ficheros, un .csv para poder pasar los datos de odometría a un formato que es sencillo de abrir en Excel, y otro fichero con las rutas absolutas de las imágenes de `all_depht_maps` para poder comprobar el funcionamiento del modelo entrenado en nuevas condiciones.
+* **pos1_info**: En esta carpeta se guardan la posición del dron 1 en ficheros .txt por separado en un formato cómodo para usarlo después si es necesario en un programa en C++. Se guarda x1 y1 z1 separado por espacios en blanco.
+* **pos2_info**: En esta carpeta se guardan la posición del dron 2 en ficheros .txt por separado en un formato cómodo para usarlo después si es necesario en un programa en C++. Se guarda x2 y2 z2 separado por espacios en blanco.
 
-Este paso lo hace el fichero `labeller_paralelepipedo_v4.cpp` que está ubicado en la ruta 
+Este paso lo hace el fichero `labeller_paralelepipedo_v5.cpp` que está ubicado en la ruta 
 `/catkin_ws/src/mis_programas/src`.\
 En la nueva versión (V2) de labeller_paralelepipedo,SÓLO se guardan y etiquetan aquellos depth_map que contengan dron, el resto no se guardan, esto es así para facilitar el etiquetado.
 En la nueva versión (v3) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones.
 En la nueva versión (v4) de labeller_paralelepipedo, se añade la generación de ficheros con información de odometría de los drones en formato csv para poder sacar fácilmente gráficas en Excel. También se añade la generación de todos los depth_maps tengan o no tengan dron, eso sí estan sin etiquetar, ya que, no deben usarse no para validación ni para test. Por último se añade la creación de un fochero que facilite, pasar al modelo entrenado en YOLO todas las imágenes para obtener los resultados tras pasar por el modelo entrenado.
-
+En la nueva versión (v5) de labeller_paralelepipedo, se añade la generación de las carpetas pos1_info y pos2_info. Además se añade la posibilidad de pasarle por argumento el número de planos verticales del LIDAR.
 
 #### 4. Generar el data set para entrenar
 Esto lo hace el fichero `dataset_creator_v3.cpp`, lo que se hace es generar en la carpeta `/catkin_ws/src/mis_programas` un directorio llamado `image_set`.\
@@ -72,7 +80,7 @@ Dentro de los directorios creados se guardarán las imágenes junto con sus etiq
 En el directorio `info_test` e `info_valid` se almacena información sobre la correspondencia de las imágenes de test y valid, con los depth maps de los distintos experimentos. Así se puede saber la posición y velocidad de ambos drones en las imágenes de test, y poder sacar conclusiones del trabajo.\
 Para usarlo tras arrancar roscore ejecutar el siguiente comando:
 ```
-rosrun mis_programas dataset_creator
+rosrun mis_programas dataset_creator_v3.cpp
 ```
 
 
